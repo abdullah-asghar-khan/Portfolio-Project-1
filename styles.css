@@ -1,11 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
-
 * {
   margin: 0px;
-  padding: 0px;
+  padding: 0px 0px;
   box-sizing: border-box;
- }
+}
 #header {
   background-color:#3C3A39 ;
   min-width: 375px;
@@ -18,8 +17,7 @@
   font-weight: 700px;
   font-size: 18px;
   line-height: 24px;
- }
-
+}
 #logo {
   font-family: 'Roboto';
   font-style: normal;
@@ -30,14 +28,12 @@
   align-items: center;
   text-align: center;
   color: #FFFFFF;
- }
-
+}
 .btn {
   background: none;
   outline: none;
   border: none;
- }
-
+}
 #Headline {
   background: #1C1A19;
   height: 590px;
@@ -45,8 +41,7 @@
   background-image: url(./images/Illustration.png);
   background-repeat: no-repeat;
   background-position: 100% 135%;
- }
-
+}
 #Headline h1 {  
   font-family: 'Crete Round';
   font-style: normal;
@@ -58,13 +53,11 @@
   order: 0;
   flex-grow: 0;
   margin: 12px 0px;
- }
+}
 #Headline h1 {
   color: #FF6B00;
- }
-
+}
 #Headline h4 {
-
   position: static;
   width: 327px;
   height: 27px;
@@ -81,13 +74,10 @@
   order: 1;
   flex-grow: 0;
   margin: 12px 0px;
- }
-
+}
 #Headline h4 {
   color: #FFF5E1;
- }
-    
-
+}
 #Headline p {
   position: static;
   width: 327px;
@@ -99,12 +89,10 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px
- }
+}
 .Social-media-icons a {
   text-decoration: none;
- }
- #Headline p {
+}
+#Headline p {
   color: #FFFFFF;
- }
-
-
+}

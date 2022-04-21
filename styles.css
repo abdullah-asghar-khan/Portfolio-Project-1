@@ -47,7 +47,7 @@
   background-position: 100% 135%;
 }
 
-#Headline h1 {  
+#Headline h1 {
   font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
@@ -58,9 +58,6 @@
   order: 0;
   flex-grow: 0;
   margin: 12px 0px;
-}
-
-#Headline h1 {
   color: #ff6b00;
 }
 
@@ -81,9 +78,6 @@
   order: 1;
   flex-grow: 0;
   margin: 12px 0px;
-}
-
-#Headline h4 {
   color: #fff5e1;
 }
 
@@ -98,12 +92,9 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  color: #ffffff;
 }
 
-.Social-media-icons a {
+.Social-media-icons {
   text-decoration: none;
-}
-
-#Headline p {
-  color:#ffffff ;
 }

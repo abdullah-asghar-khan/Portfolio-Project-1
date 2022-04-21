@@ -95,6 +95,10 @@
   color: #ffffff;
 }
 
-.Social-media-icons {
+.Social-media-icons a {
   text-decoration: none;
+}
+
+#Headline p {
+  color: #ffffff;
 }

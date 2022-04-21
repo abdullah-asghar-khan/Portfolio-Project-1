@@ -1,12 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
+
 * {
   margin: 0px;
   box-sizing: border-box;
 }
 
 #header {
-  background-color:#3C3A39 ;
+  background-color: #3c3a39;
   min-width: 375px;
   height: 48px;
   display: flex;
@@ -28,7 +29,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .btn {
@@ -38,7 +39,7 @@
 }
 
 #Headline {
-  background: #1C1A19;
+  background: #1c1a19;
   height: 590px;
   padding: 120px 24px;
   background-image: url(./images/Illustration.png);
@@ -60,7 +61,7 @@
 }
 
 #Headline h1 {
-  color: #FF6B00;
+  color: #ff6b00;
 }
 
 #Headline h4 {
@@ -83,7 +84,7 @@
 }
 
 #Headline h4 {
-  color: #FFF5E1;
+  color: #fff5e1;
 }
 
 #Headline p {
@@ -96,7 +97,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px
+  line-height: 24px;
 }
 
 .Social-media-icons a {
@@ -104,5 +105,5 @@
 }
 
 #Headline p {
-  color: #FFFFFF;
+  color:#ffffff ;
 }

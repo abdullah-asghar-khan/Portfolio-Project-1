@@ -3,29 +3,29 @@
 
 
 
- *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
 }
 
 
-    #header{
-      background-color:#3C3A39 ;
-      min-width: 375px;
-      height: 48px;
-      display: flex;
-      justify-content: space-between;
-      padding: 12px;
-      font-family: 'roboto';
-      font-style: normal;
-      font-weight: 700px;
-      font-size: 18px;
-      line-height: 24px;
-    }
-    
+  #header{
+    background-color:#3C3A39 ;
+    min-width: 375px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 24px;
+}
 
-    #logo{
+
+  #logo{
 
     font-family: 'Roboto';
     font-style: normal;
@@ -40,23 +40,23 @@
 
     }
 
-    .btn {
-        background: none;
-        outline: none;
-        border: none;
+ .btn {
+    background: none;
+    outline: none;
+    border: none;
 
     }
 
-    #Headline {
-        background: #1C1A19;
-        height: 590px;
-        padding: 120px 24px;
-        background-image: url(./images/Illustration.png);
-        background-repeat: no-repeat;
-        background-position: 100% 135%;
+ #Headline {
+    background: #1C1A19;
+    height: 590px;
+    padding: 120px 24px;
+    background-image: url(./images/Illustration.png);
+    background-repeat: no-repeat;
+    background-position: 100% 135%;
     }
 
-    #Headline h1{
+ #Headline h1{
     
     font-family: 'Crete Round';
     font-style: normal;
@@ -71,13 +71,13 @@
     
     
     }
-    #Headline h1{
+ #Headline h1{
 
-        color: #FF6B00;
+    color: #FF6B00;
 
     }
 
-    #Headline h4 {
+ #Headline h4 {
 
     position: static;
     width: 327px;
@@ -100,12 +100,12 @@
     margin: 12px 0px;
     }
 
-    #Headline h4{
-        color: #FFF5E1;
+ #Headline h4{
+    color: #FFF5E1;
     }
     
 
-    #Headline p{
+ #Headline p{
 
     position: static;
     width: 327px;
@@ -119,11 +119,11 @@
     line-height: 24px
 
     }
-    .Social-media-icons a{
-        text-decoration: none;
+ .Social-media-icons a{
+    text-decoration: none;
     }
-    #Headline p{
-        color: #FFFFFF;
+ #Headline p{
+    color: #FFFFFF;
     }
 
 

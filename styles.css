@@ -1,0 +1,75 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+    #header{
+        background-color: #3C3A39 ;
+        min-width: 375px;
+        height: 48px;
+        display: flex;
+        justify-content: space-between;
+        padding: 12px;
+        font-family: 'roboto';
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+
+    #logo{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+
+    }
+
+    .btn {
+        background: none;
+        outline: none;
+        border: none;
+
+    }
+
+    #Headline {
+
+        padding-top: 120px;
+    }
+
+    #Headline h1{
+    
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 12px 0px;
+    
+    
+    }
+    #Headline h1{
+
+        color: #FF6B00;
+
+    }
+    
+
+

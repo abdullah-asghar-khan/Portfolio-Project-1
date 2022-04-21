@@ -1,5 +1,7 @@
 
-    @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
+
+
 
  *{
     margin: 0px;
@@ -46,8 +48,12 @@
     }
 
     #Headline {
-
-        padding-top: 120px;
+        background: #1C1A19;
+        height: 590px;
+        padding: 120px 24px;
+        background-image: url(./images/Illustration.png);
+        background-repeat: no-repeat;
+        background-position: 100% 135%;
     }
 
     #Headline h1{
@@ -55,7 +61,7 @@
     font-family: 'Crete Round';
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 50px;
     line-height: 64px;
     letter-spacing: 0.37px;
     flex: none;
@@ -70,6 +76,54 @@
         color: #FF6B00;
 
     }
+
+    #Headline h4 {
+
+    position: static;
+    width: 327px;
+    height: 27px;
+    left: 24px;
+    top: 256px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+    display: flex;
+    align-items: center;
     
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0px;
+    }
+
+    #Headline h4{
+        color: #FFF5E1;
+    }
+    
+
+    #Headline p{
+
+    position: static;
+    width: 327px;
+    height: 123px;
+    left: 24px;
+    top: 295px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px
+
+    }
+    .Social-media-icons a{
+        text-decoration: none;
+    }
+    #Headline p{
+        color: #FFFFFF;
+    }
 
 

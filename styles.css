@@ -95,6 +95,15 @@
   color: #fff;
 }
 
+.Social-media-icons li {
+  list-style: none;
+}
+
+.Social-media-icons ul {
+  display: flex;
+  padding-left: 0;
+}
+
 .Social-media-icons a {
   text-decoration: none;
 }

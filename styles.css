@@ -282,4 +282,18 @@
   bottom: 62px;
 }
 
+.Card-description + div {
+  position: static;
+  width: 295px;
+  height: 81px;
+  left: 16px;
+  top: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+
+
 

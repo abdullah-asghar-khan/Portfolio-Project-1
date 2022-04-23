@@ -139,3 +139,40 @@
   padding: 0px 24px;
 }
 
+.img-placeholder {
+  width: 327px;
+  height: 237px;
+  background: url(image_processing20200716-21735-f07s4k.png);
+  background-repeat: no-repeat;
+  margin: 12px 0px;
+}
+
+.img-placeholder + div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.img-placeholder +div +h3 {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: var(--blue-like);
+  margin: 12px 0px0;
+}
+
+.img-placeholder + div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 297px;
+  height: 40px;
+}
+
+

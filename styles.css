@@ -107,3 +107,35 @@
 .Social-media-icons a {
   text-decoration: none;
 }
+
+#recent-works-header > h1 {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: var(--deepDark);
+  height: 83px;
+}
+
+.thin-line {
+  border: 1px solid #212121;
+  height: 0px;
+  width: 327px;
+  margin: 0 0 80px 0;
+}
+
+#recent-works-header + div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.Featured {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 24px;
+}
+

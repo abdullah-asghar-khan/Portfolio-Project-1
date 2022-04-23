@@ -199,7 +199,7 @@
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #091E42;
+  color: #091e42;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -217,7 +217,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #091E42;
+  color: #091e42;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -235,7 +235,7 @@
 
 .tags {
   background: #fff;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   box-sizing: border-box;
   height: 40px;
   display: flex;
@@ -245,11 +245,11 @@
   margin: 0 12px 0 0;
 }
 
-.btn {
+.btn2 {
   padding: 12px;
   width: 124px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   margin: 12px 0;
   outline: none;
   border: none;

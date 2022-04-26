@@ -256,6 +256,7 @@
   line-height: 24px;
   align-self: flex-start;
   color: #fff;
+  background: #ff6b00;
 }
 
 #Card-container {
@@ -282,22 +283,39 @@
 }
 
 .Card-description > h3 {
-  font-family: 'Crete Round', serif;
+  position: static;
+  width: 295px;
+  height: 81px;
+  left: 16px;
+  top: 8px;
+  font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  height: 81px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
+
 .Card-description > p {
-  font-family: 'Inter', sans-serif;
+  position: static;
+  width: 295px;
+  height: 87px;
+  left: 16px;
+  top: 101px;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  margin: 12px 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
 
 .Description-tags {
@@ -335,4 +353,5 @@
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+  background: #ff6b00;
 }

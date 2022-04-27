@@ -183,7 +183,7 @@
   height: 237px;
   background: url(./images/Img-Placeholder.png);
   background-repeat: no-repeat;
-  margin: 12px 0;
+  margin: 0;
 }
 
 .Right-block {
@@ -265,11 +265,15 @@
   grid-template-columns: [col1-start] 1fr;
 }
 
+li {
+  list-style-type: none;
+}
+
 .project-card {
   margin: 24px 0 0 0;
   position: relative;
   list-style: none;
-  background: url(./images/card-image.png);
+  background: url(./images/Card-works.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -322,9 +326,16 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0;
+  padding: 0px;
+  position: static;
+  width: 236px;
   height: 40px;
-  list-style: none;
+  left: 16px;
+  top: 200px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
 
 .Card-description li {
@@ -340,11 +351,6 @@
   color: #fff;
 }
 
-.Social-media-icons li:hover {
-  cursor: pointer;
-  background-color: #3c3a39;
-}
-
 .btn-card {
   width: 100%;
   font-family: 'Inter', sans-serif;
@@ -354,4 +360,133 @@
   line-height: 24px;
   color: #fff;
   background: #ff6b00;
+}
+
+#About-and-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1901px;
+  background: var(--deepDark);
+  background-image: url(./illustrations/Frame.png);
+  background-repeat: no-repeat;
+  background-position: 100% 23%;
+}
+
+#About-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+  padding: 120px 24px;
+  height: 563px;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#About-me{
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  background: #1c1a19;
+}
+
+.About-description {
+  position: static;
+  width: 327px;
+  height: 148px;
+  left: 24px;
+  top: 223px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+}
+
+.btn-About-me {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: #ff6b00;
+  margin-top: 24px;
+}
+
+#About-and-skill {
+  width: 375px;
+  height: auto;
+  padding: 120px 0;
+  background: #1c1a19;
+  margin: 120px 0;
+  background-image: url("illustration-about-me-mobile.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 50px 100px;
+  
+}
+
+#skill-section {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.skill-list-item {
+  margin: 16px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  list-style: none;
+}
+
+.skill-list-item:hover {
+  cursor: pointer;
+  color: #ff6b00;
+}
+
+.skill-list-wrap {
+  margin: 12px 0;
+}
+
+.language,
+.framework,
+.skills {
+  position: relative;
+}
+
+.language::before {
+  content: url(./illustrations/Rectangle55.png);
+  position: absolute;
+  left: -40px;
+}
+
+.framework::before {
+  content: url(./illustrations/Rectangle56.png);
+  position: absolute;
+  left: -30px;
+}
+
+.skills::before {
+  content: url(./illustrations/Rectangle57.png);
+  position: absolute;
+  left: -30px;
 }

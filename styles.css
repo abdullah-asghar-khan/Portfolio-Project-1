@@ -467,26 +467,70 @@ li {
   margin: 12px 0;
 }
 
-.language,
-.framework,
-.skills {
+.Language,
+.Framework,
+.Skills {
   position: relative;
 }
 
-.language::before {
-  content: url(./illustrations/Rectangle55.png);
-  position: absolute;
-  left: -40px;
+.Language {
+  position: static;
+  width: 164px;
+  height: 24px;
+  left: 49.46px;
+  top: 8.73px;
+  font-family: 'InaiMathi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+
 }
 
-.framework::before {
-  content: url(./illustrations/Rectangle56.png);
+.Framework {
+  position: static;
+  width: 227px;
+  height: 24px;
+  left: 42px;
+  top: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.Language::before {
+  content: url(./images/Rectangle55.png);
+  position: static;
+  width: 18px;
+  height: 18px;
+  left: 12px;
+  top: 20.73px;
+  background: #FF6B00;
+  transform: rotate(-45deg);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+
+
+.Framework::before {
+  content: url(./images/Rectangle56.png);
   position: absolute;
   left: -30px;
 }
 
-.skills::before {
-  content: url(./illustrations/Rectangle57.png);
+.Skills::before {
+  content: url(./images/Rectangle57.png);
   position: absolute;
   left: -30px;
 }

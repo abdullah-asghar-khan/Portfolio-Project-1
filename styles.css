@@ -474,20 +474,19 @@ li {
 }
 
 .Language {
-  position: static;
-  width: 164px;
-  height: 24px;
-  left: 49.46px;
-  top: 8.73px;
-  font-family: 'InaiMathi';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-
+position: static;
+width: 164px;
+height: 24px;
+left: 49.46px;
+top: 8.73px;
+font-family: 'InaiMathi';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
 }
 
 .Framework {
@@ -507,21 +506,12 @@ li {
   color: #FFFFFF;
 }
 
-.Language::before {
-  content: url(./images/Rectangle55.png);
-  position: static;
-  width: 18px;
-  height: 18px;
-  left: 12px;
-  top: 20.73px;
-  background: #FF6B00;
-  transform: rotate(-45deg);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 12px;
+#square {
+  width: 140px; 
+  height: 140px; 
+  background: orangered; 
 }
-
+}
 
 .Framework::before {
   content: url(./images/Rectangle56.png);
@@ -533,4 +523,4 @@ li {
   content: url(./images/Rectangle57.png);
   position: absolute;
   left: -30px;
-}
+} 

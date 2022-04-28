@@ -33,9 +33,12 @@
 }
 
 .btn {
+  padding: 12px;
   background: none;
+  height: 48px;
   outline: none;
   border: none;
+  border-radius: 1px;
 }
 
 #Headline {
@@ -238,15 +241,6 @@
   margin: 0 12px 0 0;
 }
 
-.btn {
-  padding: 12px;
-  background: #ff6b00;
-  height: 48px;
-  outline: none;
-  border: none;
-  border-radius: 1px;
-}
-
 .btn-feature {
   width: 124px;
   margin: 12px 0 0 0;
@@ -436,7 +430,7 @@ li {
   background-image: url("illustration-about-me-mobile.png");
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: 50px 100px; 
+  background-position: 50px 100px;
 }
 
 #skills {
@@ -469,7 +463,7 @@ section #skills ul {
   vertical-align: middle;
   margin-left: 80px;
   color: #fff;
-  }
+}
 
 div#cube {
   margin: 0;

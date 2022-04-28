@@ -431,7 +431,7 @@ li {
   height: 148px;
   left: 24px;
   top: 223px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

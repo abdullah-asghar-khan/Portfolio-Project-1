@@ -58,12 +58,8 @@ header > span > img {
   line-height: 24px;
   color: #fff;
   background: #ff6b00;
-  height: 24px;
 }
 
-#Card-container > li:nth-child(1) > button {
-  height: 24px;
-}
 #Headline {
   background: #1c1a19;
   height: 590px;
@@ -381,9 +377,6 @@ li {
   background: #ff6b00;
 }
 
-#Card-container > li:nth-child(1) > button {
-  height: 24px;
-}
 
 #About-and-skill {
   display: flex;

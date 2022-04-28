@@ -172,12 +172,13 @@
   height: 237px;
   left: 24px;
   top: 0;
-  background:url(image_processing20200716-21735-f07s4k.png);
+  background: url(image_processing20200716-21735-f07s4k.png);
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 24px 0;
 }
+
 .img-placeholder {
   width: 327px;
   height: 237px;
@@ -201,7 +202,7 @@
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: var(#091e42);
+  color: #091e42;
   margin: 12px 0;
 }
 
@@ -211,7 +212,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: var(#091e42);
+  color: #091e42;
   margin: 12px 0;
 }
 
@@ -239,7 +240,7 @@
 
 .btn {
   padding: 12px;
-  background: var(#ff6b00);
+  background: #ff6b00;
   height: 48px;
   outline: none;
   border: none;
@@ -301,7 +302,7 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .Card-description > p {
@@ -319,14 +320,14 @@ li {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .Description-tags {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   position: static;
   width: 236px;
   height: 40px;
@@ -335,7 +336,7 @@ li {
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .Card-description li {
@@ -367,7 +368,7 @@ li {
   flex-direction: column;
   align-items: center;
   height: 1901px;
-  background: var(--deepDark);
+  background:#091e42;
   background-image: url(./illustrations/Frame.png);
   background-repeat: no-repeat;
   background-position: 100% 23%;
@@ -390,7 +391,7 @@ li {
   width: 100%;
 }
 
-#About-me{
+#About-me {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -412,7 +413,7 @@ li {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
 
 .btn-About-me {
@@ -435,8 +436,7 @@ li {
   background-image: url("illustration-about-me-mobile.png");
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: 50px 100px;
-  
+  background-position: 50px 100px; 
 }
 
 #skills {
@@ -448,7 +448,6 @@ li {
   align-items: center;
   padding-left: 30px;
 }
-
 
 div.tabs {
   padding-bottom: 120px;
@@ -464,14 +463,13 @@ section #skills ul {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 44px;;
+  line-height: 44px;
   padding: 5px 70px  5px 0;
   list-style: none;
   vertical-align: middle;
   margin-left: 80px;
   color: #fff;
-  
-}
+  }
 
 div#cube {
   margin: 0;
@@ -497,7 +495,6 @@ div#brecto {
   margin-left: 50px;
 }
 
-
 div#circle {
   background: url("./images/Rectangle57.png") no-repeat left center;
   font-family: 'Roboto', sans-serif;
@@ -510,7 +507,6 @@ div#circle {
   font-weight: 700;
   line-height: 44px;
   text-align: center;
-  padding: 5px 65px  5px 0;
   margin: 0;
   vertical-align: middle;
   margin-left: 110px;

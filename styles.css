@@ -39,7 +39,6 @@ header > span > img {
 
 .btn {
   padding: 12px;
-  /* height: 24px; */
   outline: none;
   border: none;
   border-radius: 1px;
@@ -70,7 +69,7 @@ header > span > img {
 }
 
 #Headline h1 {
-  font-family: 'Crete Round', serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -103,6 +102,34 @@ header > span > img {
   color: #fff5e1;
 }
 
+.Right-block > p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  margin: 12px 0;
+}
+
+.Card-description > p {
+  position: static;
+  width: 295px;
+  height: 87px;
+  left: 16px;
+  top: 101px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
 #Headline p {
   position: static;
   width: 327px;
@@ -115,6 +142,10 @@ header > span > img {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+}
+
+li {
+  list-style-type: none;
 }
 
 .Social-media-icons li {
@@ -136,7 +167,7 @@ header > span > img {
   height: 83px;
   left: 0;
   top: 0;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -165,6 +196,19 @@ header > span > img {
   margin-bottom: 80px;
 }
 
+.Featured + div {
+  position: static;
+  width: 327px;
+  height: 237px;
+  left: 24px;
+  top: 0;
+  background: url(image_processing20200716-21735-f07s4k.png);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0;
+}
+
 #recent-works-header + div {
   display: flex;
   flex-direction: column;
@@ -188,19 +232,6 @@ header > span > img {
   margin: 24px 0;
 }
 
-.Featured + div {
-  position: static;
-  width: 327px;
-  height: 237px;
-  left: 24px;
-  top: 0;
-  background: url(image_processing20200716-21735-f07s4k.png);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 24px 0;
-}
-
 .img-placeholder {
   width: 327px;
   height: 237px;
@@ -217,23 +248,13 @@ header > span > img {
 }
 
 .Right-block > h3 {
-  font-family: 'Crete Round', serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #091e42;
-  margin: 12px 0;
-}
-
-.Right-block > p {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
   color: #091e42;
   margin: 12px 0;
 }
@@ -280,10 +301,6 @@ header > span > img {
   grid-template-columns: [col1-start] 1fr;
 }
 
-li {
-  list-style-type: none;
-}
-
 .project-card {
   margin: 24px 0 0 0;
   position: relative;
@@ -307,7 +324,7 @@ li {
   height: 81px;
   left: 16px;
   top: 8px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -315,24 +332,6 @@ li {
   color: #fff;
   flex: none;
   order: 0;
-  flex-grow: 0;
-  margin: 12px 0;
-}
-
-.Card-description > p {
-  position: static;
-  width: 295px;
-  height: 87px;
-  left: 16px;
-  top: 101px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  flex: none;
-  order: 1;
   flex-grow: 0;
   margin: 12px 0;
 }
@@ -416,7 +415,7 @@ li {
 }
 
 #About-me {
-  font-family: 'Crete Round', serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -471,7 +470,7 @@ section #skills ul {
 
 .recto {
   width: 227px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -487,7 +486,7 @@ div#cube {
   margin: 0;
   box-sizing: border-box;
   width: 227px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;

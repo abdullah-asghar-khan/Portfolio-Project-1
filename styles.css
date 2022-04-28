@@ -377,16 +377,25 @@ li {
   background: #ff6b00;
 }
 
+#divider {
+  border-bottom: 1px solid #fff;
+  width: 327px;
+  margin: 209px 0 0 0;
+}
 
 #About-and-skill {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 1901px;
-  background: #091e42;
-  background-image: url(./illustrations/Frame.png);
+  width: 375px;
+  height: auto;
+  padding-top: 120px;
+  background: #1c1a19;
+  margin-top: 120px;
+  background-image: url("images/illustration-about-me-mobile.png");
   background-repeat: no-repeat;
-  background-position: 100% 23%;
+  background-size: auto;
+  background-position: 215px 370px;
 }
 
 #About-section {
@@ -440,18 +449,6 @@ li {
   color: #fff;
   background: #ff6b00;
   margin-top: 24px;
-}
-
-#About-and-skill {
-  width: 375px;
-  height: auto;
-  padding: 120px 0;
-  background: #1c1a19;
-  margin: 120px 0;
-  background-image: url("illustration-about-me-mobile.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: 50px 100px;
 }
 
 #skills {

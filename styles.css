@@ -12,6 +12,7 @@
   height: 48px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 12px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -32,15 +33,37 @@
   color: #fff;
 }
 
+header > span > img {
+  z-index: 0;
+}
+
 .btn {
   padding: 12px;
-  background: none;
-  height: 48px;
+  /* height: 24px; */
   outline: none;
   border: none;
   border-radius: 1px;
 }
 
+#btn-first {
+  list-style: none;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 12px;
+  width: 327px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: #ff6b00;
+  height: 24px;
+}
+
+#Card-container > li:nth-child(1) > button {
+  height: 24px;
+}
 #Headline {
   background: #1c1a19;
   height: 590px;
@@ -252,6 +275,7 @@
   align-self: flex-start;
   color: #fff;
   background: #ff6b00;
+  height: 48px;
 }
 
 #Card-container {
@@ -357,12 +381,16 @@ li {
   background: #ff6b00;
 }
 
+#Card-container > li:nth-child(1) > button {
+  height: 24px;
+}
+
 #About-and-skill {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 1901px;
-  background:#091e42;
+  background: #091e42;
   background-image: url(./illustrations/Frame.png);
   background-repeat: no-repeat;
   background-position: 100% 23%;

@@ -8,29 +8,25 @@
 
 #header {
   background-color: #3c3a39;
-  min-width: 375px;
+  width: 375px;
   height: 48px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 12px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#logo {
+  color: #fff;
+  text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700px;
   font-size: 18px;
   line-height: 24px;
-}
-
-#logo {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #fff;
 }
 
 header > span > img {

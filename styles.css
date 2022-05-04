@@ -538,8 +538,9 @@ ul.centro {
 #skills > ul > ul:nth-child(6) > li:nth-child(5) {
   margin-bottom: 120px;
 }
+
 .footer {
-  background: #e5e5e5;
+  background-color: #fff;
 }
 
 #contact-form {

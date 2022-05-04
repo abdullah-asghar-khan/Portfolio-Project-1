@@ -538,13 +538,16 @@ ul.centro {
 #skills > ul > ul:nth-child(6) > li:nth-child(5) {
   margin-bottom: 120px;
 }
+.footer {
+  background: #e5e5e5;
+}
 
 #contact-form {
   position: static;
   width: 327px;
   height: 216px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -555,7 +558,7 @@ ul.centro {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 24px 0px;
+  margin: 24px 0;
   margin-left: 24px;
   margin-right: 24px;
 }
@@ -607,7 +610,7 @@ section#contact-form.work-section {
 }
 
 .name-email {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   margin-top: 40px;
   height: 42px;
   width: 319px;
@@ -657,7 +660,7 @@ button.custom {
   padding: 12px;
   background: #ff6b00;
   color: #fff;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -680,7 +683,7 @@ div.footer {
   flex-wrap: nowrap;
   padding-top: 120px;
   background-color: #fff5e1;
-  width:375px;
+  width: 375px;
 }
 
 p#btn-capital {

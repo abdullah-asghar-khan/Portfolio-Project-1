@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Poppins&family=Roboto&display=swap');
 
 * {
   margin: 0;
@@ -540,15 +540,24 @@ ul.centro {
 }
 
 #contact-form {
-  width: 375px;
+  position: static;
+  width: 327px;
   height: 216px;
+  left: 0px;
+  top: 0px;
   font-family: 'Inter', sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 32px;
+  text-align: center;
   line-height: 44px;
   color: #172b4d;
-  text-align: center;
-  margin-bottom: 80px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 form {
@@ -559,6 +568,7 @@ form {
   align-items: center;
   width: 327px;
   margin-bottom: 24px;
+  margin-left: -20px;
 }
 
 section#contact-form.work-section {
@@ -571,12 +581,40 @@ section#contact-form.work-section {
   padding-bottom: 48px;
 }
 
+#contact-form > p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 0;
+  box-sizing: border-box;
+  width: 327px;
+  height: 216px;
+  margin-left: -23px;
+  margin-right: 23px;
+  margin-bottom: 73px;
+}
+
 .font-style {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   padding: 12px;
+}
+
+.name-email {
+  margin-bottom: 0px;
+  margin-top: 40px;
+  height: 42px;
+  width: 319px;
+}
+
+#email {
+  margin-top: 0;
 }
 
 input,
@@ -617,7 +655,15 @@ button.custom {
   width: 131px;
   height: 48px;
   padding: 12px;
-  margin-bottom: 120px;
+  background: #ff6b00;
+  color: #fff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  margin: auto;
 }
 
 p.hr-line.full-hr {
@@ -634,6 +680,7 @@ div.footer {
   flex-wrap: nowrap;
   padding-top: 120px;
   background-color: #fff5e1;
+  width:375px;
 }
 
 p#btn-capital {

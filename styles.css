@@ -663,7 +663,7 @@ button.custom {
   font-size: 17px;
   line-height: 24px;
   border: none;
-  margin: auto;
+  margin: 24px auto;
 }
 
 p.hr-line.full-hr {

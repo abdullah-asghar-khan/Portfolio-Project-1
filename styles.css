@@ -539,10 +539,6 @@ ul.centro {
   margin-bottom: 120px;
 }
 
-.footer {
-  background-color: #fff;
-}
-
 #contact-form {
   position: static;
   width: 327px;
@@ -600,6 +596,7 @@ section#contact-form.work-section {
   margin-left: -23px;
   margin-right: 23px;
   margin-bottom: 73px;
+  background: #fff;
 }
 
 .font-style {
@@ -626,7 +623,6 @@ textarea {
   width: 295px;
   height: 18px;
   color: #979493;
-  background-color: #fff5e1;
   border: none;
   margin: 24px 0;
 }
@@ -683,7 +679,6 @@ div.footer {
   flex-direction: column;
   flex-wrap: nowrap;
   padding-top: 120px;
-  background-color: #fff5e1;
   width: 375px;
 }
 

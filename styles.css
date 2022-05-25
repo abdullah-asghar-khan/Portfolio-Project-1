@@ -216,6 +216,7 @@ li {
     background-position: 100% 230px;
   }
 }
+
 #recent-works-header + div {
   display: flex;
   flex-direction: column;
@@ -884,41 +885,41 @@ p#btn-capital {
   }
 
   .headline-text-wrapper {
-  margin-left: 123px;
+    margin-left: 123px;
   }
 
   #Headline .headline-primary-text {
-  font-size: 72px;
-  line-height: 82px;
+    font-size: 72px;
+    line-height: 82px;
   }
 
   #Headline h4 {
-  font-family: "inter", sans-serif;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 44px;
+    font-family: "inter", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
   }
 
   .headline-desc {
-  font-family: "inter", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  color: #fff;
-  margin-top: 12px;
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    margin-top: 12px;
   }
 
   .Social-media-icons {
-  position: absolute;
-  padding: 50px 0;
-  display: block;
+    position: absolute;
+    padding: 50px 0;
+    display: block;
   }
 
   #recent-works {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  padding: 135px 24px;
-  margin: 0 118px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 135px 24px;
+    margin: 0 118px;
   } 
 }

@@ -714,15 +714,16 @@ p#btn-capital {
   }
 
   #recent-works-header > h1 {
-    font-family: "Crete round", sans-serif;
-    font-size: 40px;
-    font-weight: normal;
+    font-family: "Crete Round", serif;
     font-style: normal;
-    color: #091e42;
-    margin: 135px 141px 114px 141px;
-    display: flex;
-    flex-direction: row;
-}
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--deepDark);
+    height: 83px;
+    float: inline-start;
+  }
+
   .my-works {
     display: flex;
     flex-direction: column;
@@ -732,12 +733,13 @@ p#btn-capital {
   }
 
   .thin-line {
-    content: " ";
-    flex: 1 1;
-    border-bottom: 2px solid #091e42;
-    margin: auto;
-    margin-left: 12px;
-}
+    border: 1px solid #212121;
+    height: 0;
+    width: 327px;
+    margin: 0 0 80px 0;
+    float: inline-end;
+    display: inline;
+  }
 
   .Featured {
     flex-direction: column;
@@ -745,13 +747,11 @@ p#btn-capital {
     padding: 0 24px;
   }
 
-  .first-card-image-container {
-    width: 327px;
-    height: 237px;
-    margin: 12px 0;
+  .first-card-img-mobile {
+    display: none;
   }
 
-  .first-card-img-desktop {
+  .img-placeholder {
     display: none;
   }
 
@@ -777,60 +777,15 @@ p#btn-capital {
     display: grid;
     grid-template-columns: [col1-start] 1fr;
   }
-
-  #About-and-skill {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 1901px;
-    background-image: url(./images/illustration-about-me-mobile.png);
-    background-repeat: no-repeat;
-    background-position: 100% 20%;
-  }
-
-  #about-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-items: center;
-    padding: 120px 24px;
-    height: 563px;
-  }
-
-  .About-me-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .About-me-header h3 {
-    font-family: "Crete Round", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 88px;
-    letter-spacing: 0.37px;
-    color: var(--orange);
-  }
-
-  .About-description {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #f4f5f7;
-    margin: 24px 0;
-  }
-
-  .divider {
-    width: 327px;
-    margin: 80px 0 0 0;
-  }
 }
 
 @media screen and (min-width: 768px) {
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
   #header {
     display: flex;
     align-items: center;
@@ -862,10 +817,6 @@ p#btn-capital {
 
   #logo:hover {
     color: #ff6b00;
-  }
-
-  .btn {
-    display: none;
   }
 
   #desktop-nav-links {
@@ -911,6 +862,10 @@ p#btn-capital {
     color: var(--deepDark);
     height: 83px;
     float: inline-start;
+  }
+
+  .img-placeholder {
+    display: none;
   }
 
   #Headline {
@@ -974,6 +929,12 @@ p#btn-capital {
     display: block;
   }
 
+  #my-works,
+  #recent-works-header + div,
+  #recent-works {
+    align-items: initial;
+  }
+
   #recent-works {
     display: flex;
     flex-direction: column;
@@ -981,8 +942,170 @@ p#btn-capital {
     padding: 135px 24px;
     margin: 0 118px;
   }
-.menu{
-  display: none;
-}
+  .menu{
+    display: none;
+  }
 
+  .first-card-img-mobile {
+    display: none;
+  }
+
+  .first-card-image-container {
+    height: 448px;
+    background: url(image_processing20200716-21735-f07s4k.png);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Right-block {
+    width: 50%;
+    align-items:initial;
+  }
+
+  .Featured {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 24px;
+    width: 100%;
+    gap: 24px;
+  }
+  
+  .btn-feature {
+    width: 124px;
+    margin: 12px 0 0 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    align-self: flex-start;
+    color: #fff;
+    background: #ff6b00;
+    height: 48px;
+  }
+
+  #Card-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    grid-template-rows: 435px 435px;
+    grid-gap: 24px;
+    align-items: initial;
+    height: 435px;
+  }
+
+  .btn-desk {
+    display: none;
+  }
+
+  #About-and-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+    margin-top: 450px;
+  }
+
+  .tabs {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 130px 0px;
+    background-image: url(./images/illustration-about-me-desktop.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 142px;
+    top: 2900px;
+    width: 100%;
+    margin-bottom: 60px;
+    float: right;
+    
+  }
+
+  #divider {
+
+    margin: 530px 0 30px;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+  }
+
+  .Header {
+    justify-content: start;
+    align-items: initial;
+  }
+
+  .About-me-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+
+  .About-me-header h3 {
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0.37px;
+    color: var(--orange);
+  }
+
+  .About-description {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f4f5f7;
+    margin: 24px 0;
+  }
+
+  div.footer {
+    width: 100%;
+  }
+
+  section#contact-form.work-section {
+  display: flex;
+  flex-direction: row;
+  width:auto;
+  margin: 10%;
+  gap:40px;
+  }
+
+  form {
+    width:auto;
+  }
+
+  menu.flex-item.bottom-link {
+    width: 100%;
+  }
+
+  #btn-capital,
+  p.hr-line.full-hr {
+    display: none;
+  }
+  
+  #contact-form > p {
+    align-items: initial;
+    text-align:start;
+    justify-content: start;
+  }
+
+  .name-email,
+  textarea#textarea.font-style {
+    width: 652px;
+  }
+
+  textarea#textarea.font-style  {
+    height: 114px;
+  }
 }

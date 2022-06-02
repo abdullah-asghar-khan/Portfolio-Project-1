@@ -80,7 +80,6 @@ header > span > img {
 
 #Headline h4 {
   position: static;
-  width: 327px;
   height: 27px;
   left: 24px;
   top: 256px;
@@ -128,7 +127,6 @@ header > span > img {
 
 #Headline p {
   position: static;
-  width: 327px;
   height: 123px;
   left: 24px;
   top: 295px;
@@ -180,7 +178,6 @@ li {
 
 .thin-line {
   position: static;
-  width: 327px;
   height: 0;
   left: 0;
   top: 107px;
@@ -707,26 +704,25 @@ p#btn-capital {
   #headline-section {
     background-image: url(./images/Illustration-header.png);
     background-repeat: no-repeat;
-    background-position: 100% 230px;
+    background-position: 100% 300px;
   }
 
-  .recent-works-header {
-    display: flex;
-    flex-direction: column;
+  #recent-works-header {
+    display: inline;
     align-items: center;
     padding: 0;
   }
 
-  .recent-works-header > h2 {
-    font-family: "Crete Round", serif;
-    font-style: normal;
-    font-weight: 400;
+  #recent-works-header > h1 {
+    font-family: "Crete round", sans-serif;
     font-size: 40px;
-    line-height: 52px;
-    color: var(--deepDark);
-    height: 83px;
-  }
-
+    font-weight: normal;
+    font-style: normal;
+    color: #091e42;
+    margin: 135px 141px 114px 141px;
+    display: flex;
+    flex-direction: row;
+}
   .my-works {
     display: flex;
     flex-direction: column;
@@ -736,11 +732,12 @@ p#btn-capital {
   }
 
   .thin-line {
-    border: 1px solid #212121;
-    height: 0;
-    width: 327px;
-    margin: 0 0 80px 0;
-  }
+    content: " ";
+    flex: 1 1;
+    border-bottom: 2px solid #091e42;
+    margin: auto;
+    margin-left: 12px;
+}
 
   .Featured {
     flex-direction: column;
@@ -834,6 +831,21 @@ p#btn-capital {
 }
 
 @media screen and (min-width: 768px) {
+  #header {
+    display: flex;
+    align-items: center;
+  }
+
+  
+.Social-media-icons ul {
+  display: block;
+  padding-left: 0;
+  position: absolute;
+  padding-left: 100px;
+  left: 100.25%;
+  bottom: 103.87%;
+}
+
   #logo {
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -859,13 +871,14 @@ p#btn-capital {
   #desktop-nav-links {
     display: flex;
     list-style: none;
+    align-items: center;
     margin-right: 151px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 0px;
-    padding-left: 1003px;
+    padding-left: 700px;
     color: #fff;
     flex: none;
     order: 0;
@@ -881,6 +894,23 @@ p#btn-capital {
   #desktop-nav-links > li > a {
     text-decoration: none;
     color: var(--white);
+  }
+
+  #recent-works-header {
+    display: inline;
+    align-items: center;
+    padding: 0;
+  }
+
+  #recent-works-header > h1 {
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--deepDark);
+    height: 83px;
+    float: inline-start;
   }
 
   #Headline {
@@ -914,15 +944,28 @@ p#btn-capital {
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
+    padding-left: 143px;
+    display: flex;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0;
   }
 
   .headline-desc {
-    font-family: "inter", sans-serif;
+    width: 566px;
+    height: 123px; 
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: #fff;
+    color: #F4F5F7;
     margin-top: 12px;
+    padding-left: 143px;
+    display: flex;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
   }
 
   .Social-media-icons {
@@ -938,9 +981,8 @@ p#btn-capital {
     padding: 135px 24px;
     margin: 0 118px;
   }
-
-  img {
-    display: none;
-  }
+.menu{
+  display: none;
+}
 
 }

@@ -1006,6 +1006,7 @@ p#btn-capital {
     background-repeat: no-repeat;
     background-position: 100% 20%;
     margin-top: 450px;
+    background-image: url(./images/illustration-about-me-desktop.png);
   }
 
   .tabs {
@@ -1018,12 +1019,10 @@ p#btn-capital {
     flex-direction: column;
     align-items: flex-start;
     padding: 130px 0px;
-    background-image: url(./images/illustration-about-me-desktop.png);
     position: absolute;
-    background-repeat: no-repeat;
     left: 142px;
     top: 2900px;
-    width: 100%;
+    width: 100%;  
     margin-bottom: 60px;
     float: right;
     
@@ -1031,7 +1030,7 @@ p#btn-capital {
 
   #divider {
 
-    margin: 530px 0 30px;
+    margin: 800px 0 30px;
     width: 80%;
     border-bottom: 1px solid #fff;
   }
@@ -1077,7 +1076,7 @@ p#btn-capital {
   display: flex;
   flex-direction: row;
   width:auto;
-  margin: 10%;
+  margin: 5% auto;
   gap:40px;
   }
 
@@ -1087,6 +1086,8 @@ p#btn-capital {
 
   menu.flex-item.bottom-link {
     width: 100%;
+    border-top: 1px solid #dfe1e6;
+    padding: 20px;
   }
 
   #btn-capital,
@@ -1095,17 +1096,21 @@ p#btn-capital {
   }
   
   #contact-form > p {
-    align-items: initial;
     text-align:start;
     justify-content: start;
+    margin-top: -60px;
   }
 
   .name-email,
-  textarea#textarea.font-style {
+   #textarea{
     width: 652px;
   }
 
-  textarea#textarea.font-style  {
-    height: 114px;
+  #textarea {
+    padding-bottom: 70px;
+  }
+
+  button.custom {
+    margin-left: 23px;
   }
 }

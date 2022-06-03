@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Poppins&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Poppins&family=Roboto&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +7,6 @@
 
 #header {
   background-color: #3c3a39;
-  width: 375px;
   height: 48px;
   padding: 12px;
 }
@@ -22,7 +20,7 @@ nav {
 #logo {
   color: #fff;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700px;
   font-size: 18px;
@@ -46,7 +44,22 @@ header > span > img {
   box-sizing: border-box;
   padding: 12px;
   width: 327px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: #ff6b00;
+}
+
+#btn-first1 {
+  list-style: none;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 12px;
+  width: 327px;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -65,7 +78,7 @@ header > span > img {
 }
 
 #Headline h1 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -80,11 +93,10 @@ header > span > img {
 
 #Headline h4 {
   position: static;
-  width: 327px;
   height: 27px;
   left: 24px;
   top: 256px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -99,7 +111,7 @@ header > span > img {
 }
 
 .Right-block > p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -114,7 +126,7 @@ header > span > img {
   height: 87px;
   left: 16px;
   top: 101px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -128,11 +140,10 @@ header > span > img {
 
 #Headline p {
   position: static;
-  width: 327px;
   height: 123px;
   left: 24px;
   top: 295px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -163,7 +174,7 @@ li {
   height: 83px;
   left: 0;
   top: 0;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -180,7 +191,6 @@ li {
 
 .thin-line {
   position: static;
-  width: 327px;
   height: 0;
   left: 0;
   top: 107px;
@@ -256,7 +266,7 @@ li {
 }
 
 .Right-block > h3 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -292,7 +302,7 @@ li {
 .btn-feature {
   width: 124px;
   margin: 12px 0 0 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -332,7 +342,7 @@ li {
   height: 81px;
   left: 16px;
   top: 8px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -365,7 +375,7 @@ li {
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
   margin: 0 12px 0 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -375,7 +385,7 @@ li {
 
 .btn-card {
   width: 100%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -423,7 +433,7 @@ li {
 }
 
 #About-me {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -439,7 +449,7 @@ li {
   height: 148px;
   left: 24px;
   top: 223px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -448,7 +458,7 @@ li {
 }
 
 .btn-About-me {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -478,23 +488,23 @@ section #skills ul {
 
 .recto {
   width: 227px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  padding: 5px 70px  5px 0;
+  padding: 5px 70px 5px 0;
   list-style: none;
   vertical-align: middle;
   margin-left: 80px;
   color: #fff;
 }
 
-div#cube {
+span#cube {
   margin: 0;
   box-sizing: border-box;
   width: 227px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -508,15 +518,15 @@ div#cube {
   padding-left: 40px;
 }
 
-div#brecto {
+span#brecto {
   background: url("./images/Rectangle56.png") no-repeat left center;
   padding: 5px 100px 5px 30px;
   margin-left: 50px;
 }
 
-div#circle {
+span#circle {
   background: url("./images/Rectangle57.png") no-repeat left center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   left: 0;
   right: 0;
   top: 0;
@@ -536,7 +546,7 @@ div#circle {
 .centro > li {
   text-align: center;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
@@ -557,7 +567,7 @@ ul.centro {
   height: 216px;
   left: 0;
   top: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -594,7 +604,7 @@ section#contact-form.work-section {
 }
 
 #contact-form > p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -669,7 +679,7 @@ button.custom {
   padding: 12px;
   background: #ff6b00;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -707,17 +717,16 @@ p#btn-capital {
   #headline-section {
     background-image: url(./images/Illustration-header.png);
     background-repeat: no-repeat;
-    background-position: 100% 230px;
+    background-position: 100% 300px;
   }
 
-  .recent-works-header {
-    display: flex;
-    flex-direction: column;
+  #recent-works-header {
+    display: inline;
     align-items: center;
     padding: 0;
   }
 
-  .recent-works-header > h2 {
+  #recent-works-header > h1 {
     font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
@@ -725,6 +734,7 @@ p#btn-capital {
     line-height: 52px;
     color: var(--deepDark);
     height: 83px;
+    float: inline-start;
   }
 
   .my-works {
@@ -740,30 +750,30 @@ p#btn-capital {
     height: 0;
     width: 327px;
     margin: 0 0 80px 0;
+    float: inline-end;
+    display: inline;
   }
 
-  .featured {
+  .Featured {
     flex-direction: column;
     align-items: center;
     padding: 0 24px;
   }
 
-  .first-card-image-container {
-    width: 327px;
-    height: 237px;
-    margin: 12px 0;
-  }
-
-  .first-card-img-desktop {
+  .first-card-img-mobile {
     display: none;
   }
 
-  .first-card {
+  .img-placeholder {
+    display: none;
+  }
+
+  .Right-block {
     align-items: center;
     padding: 0;
   }
 
-  .first-card > h3 {
+  .Right-block > h3 {
     font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
@@ -775,65 +785,32 @@ p#btn-capital {
     margin: 12px 0;
   }
 
-  #card-container {
+  #Card-container {
     padding: 0 16px;
     display: grid;
     grid-template-columns: [col1-start] 1fr;
   }
-
-  #about-and-skill-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 1901px;
-    background-image: url(./illustrations/about-section-img.svg);
-    background-repeat: no-repeat;
-    background-position: 100% 20%;
-  }
-
-  #about-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-items: center;
-    padding: 120px 24px;
-    height: 563px;
-  }
-
-  .about-me-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .about-me-header h3 {
-    font-family: "Crete Round", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 88px;
-    letter-spacing: 0.37px;
-    color: var(--orange);
-  }
-
-  .about-description {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #f4f5f7;
-    margin: 24px 0;
-  }
-
-  .about-section-divider {
-    width: 327px;
-    margin: 80px 0 0 0;
-  }
 }
 
 @media screen and (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header {
+    display: flex;
+    align-items: center;
+  }
+
+  .Social-media-icons ul {
+    display: block;
+    position: absolute;
+    padding-left: 100px;
+    left: 100.25%;
+    bottom: 103.87%;
+  }
+
   #logo {
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -844,25 +821,28 @@ p#btn-capital {
     transition-property: color;
     transition-delay: 1008ms;
     transition-duration: 1s;
+    padding-left: 154px;
   }
 
   #logo:hover {
     color: #ff6b00;
   }
 
-  .btn {
-    display: none;
-  }
-
   #desktop-nav-links {
     display: flex;
     list-style: none;
+    align-items: center;
     margin-right: 151px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 0px;
+    padding-left: 700px;
+    color: #fff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   #desktop-nav-links > li {
@@ -873,6 +853,27 @@ p#btn-capital {
   #desktop-nav-links > li > a {
     text-decoration: none;
     color: var(--white);
+  }
+
+  #recent-works-header {
+    display: inline;
+    align-items: center;
+    padding: 0;
+  }
+
+  #recent-works-header > h1 {
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--deepDark);
+    height: 83px;
+    float: inline-start;
+  }
+
+  .img-placeholder {
+    display: none;
   }
 
   #Headline {
@@ -891,6 +892,12 @@ p#btn-capital {
   #Headline .headline-primary-text {
     font-size: 72px;
     line-height: 82px;
+    width: 566px;
+    height: 160px;
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 143px;
   }
 
   #Headline h4 {
@@ -898,15 +905,28 @@ p#btn-capital {
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
+    padding-left: 143px;
+    display: flex;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0;
   }
 
   .headline-desc {
-    font-family: "inter", sans-serif;
+    width: 566px;
+    height: 123px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: #fff;
+    color: #f4f5f7;
     margin-top: 12px;
+    padding-left: 143px;
+    display: flex;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
   }
 
   .Social-media-icons {
@@ -915,11 +935,186 @@ p#btn-capital {
     display: block;
   }
 
+  #my-works,
+  #recent-works-header + div,
+  #recent-works {
+    align-items: initial;
+  }
+
   #recent-works {
     display: flex;
     flex-direction: column;
     justify-items: center;
     padding: 135px 24px;
     margin: 0 118px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .first-card-img-mobile {
+    display: none;
+  }
+
+  .first-card-image-container {
+    height: 448px;
+    background: url(image_processing20200716-21735-f07s4k.png);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Right-block {
+    width: 50%;
+    align-items: initial;
+  }
+
+  .Featured {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 24px;
+    width: 100%;
+    gap: 24px;
+  }
+
+  .btn-feature {
+    width: 124px;
+    margin: 12px 0 0 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    align-self: flex-start;
+    color: #fff;
+    background: #ff6b00;
+    height: 48px;
+  }
+
+  #Card-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 435px 435px;
+    grid-gap: 24px;
+    align-items: initial;
+    height: 435px;
+  }
+
+  .btn-desk {
+    display: none;
+  }
+
+  #About-and-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 100px;
+    margin-top: 450px;
+    background-image: url(./images/illustration-about-me-desktop.png);
+    background-size: 45%;
+  }
+
+  .tabs {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 130px 150px;
+    position: absolute;
+    left: 142px;
+    width: 100%;
+    margin-bottom: 60px;
+    float: right;
+  }
+
+  #divider {
+    margin: 800px 0 30px;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+  }
+
+  .Header {
+    justify-content: start;
+    align-items: initial;
+  }
+
+  .About-me-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .About-me-header h3 {
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0.37px;
+    color: var(--orange);
+  }
+
+  .About-description {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f4f5f7;
+    margin: 24px 0;
+  }
+
+  div.footer {
+    width: 100%;
+  }
+
+  section#contact-form.work-section {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 5% auto;
+    gap: 40px;
+  }
+
+  form {
+    width: auto;
+  }
+
+  menu.flex-item.bottom-link {
+    width: 100%;
+    border-top: 1px solid #dfe1e6;
+    padding: 20px;
+  }
+
+  #btn-capital,
+  p.hr-line.full-hr {
+    display: none;
+  }
+
+  #contact-form > p {
+    text-align: start;
+    justify-content: start;
+    margin-top: -60px;
+  }
+
+  .name-email,
+  #textarea {
+    width: 652px;
+  }
+
+  #textarea {
+    padding-bottom: 70px;
+  }
+
+  button.custom {
+    margin-left: 23px;
   }
 }

@@ -1,6 +1,4 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Poppins&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Poppins&family=Roboto&display=swap");
 
 * {
   margin: 0;
@@ -22,7 +20,7 @@ nav {
 #logo {
   color: #fff;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700px;
   font-size: 18px;
@@ -46,7 +44,7 @@ header > span > img {
   box-sizing: border-box;
   padding: 12px;
   width: 327px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -65,7 +63,7 @@ header > span > img {
 }
 
 #Headline h1 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -83,7 +81,7 @@ header > span > img {
   height: 27px;
   left: 24px;
   top: 256px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -98,7 +96,7 @@ header > span > img {
 }
 
 .Right-block > p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -113,7 +111,7 @@ header > span > img {
   height: 87px;
   left: 16px;
   top: 101px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -130,7 +128,7 @@ header > span > img {
   height: 123px;
   left: 24px;
   top: 295px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -161,7 +159,7 @@ li {
   height: 83px;
   left: 0;
   top: 0;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -253,7 +251,7 @@ li {
 }
 
 .Right-block > h3 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -289,7 +287,7 @@ li {
 .btn-feature {
   width: 124px;
   margin: 12px 0 0 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -329,7 +327,7 @@ li {
   height: 81px;
   left: 16px;
   top: 8px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -362,7 +360,7 @@ li {
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
   margin: 0 12px 0 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -372,7 +370,7 @@ li {
 
 .btn-card {
   width: 100%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -420,7 +418,7 @@ li {
 }
 
 #About-me {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -436,7 +434,7 @@ li {
   height: 148px;
   left: 24px;
   top: 223px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -445,7 +443,7 @@ li {
 }
 
 .btn-About-me {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -475,12 +473,12 @@ section #skills ul {
 
 .recto {
   width: 227px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  padding: 5px 70px  5px 0;
+  padding: 5px 70px 5px 0;
   list-style: none;
   vertical-align: middle;
   margin-left: 80px;
@@ -491,7 +489,7 @@ div#cube {
   margin: 0;
   box-sizing: border-box;
   width: 227px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -513,7 +511,7 @@ div#brecto {
 
 div#circle {
   background: url("./images/Rectangle57.png") no-repeat left center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   left: 0;
   right: 0;
   top: 0;
@@ -533,7 +531,7 @@ div#circle {
 .centro > li {
   text-align: center;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
@@ -554,7 +552,7 @@ ul.centro {
   height: 216px;
   left: 0;
   top: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -591,7 +589,7 @@ section#contact-form.work-section {
 }
 
 #contact-form > p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -666,7 +664,7 @@ button.custom {
   padding: 12px;
   background: #ff6b00;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -780,7 +778,6 @@ p#btn-capital {
 }
 
 @media screen and (min-width: 768px) {
-
   main {
     display: flex;
     flex-direction: column;
@@ -791,15 +788,14 @@ p#btn-capital {
     align-items: center;
   }
 
-  
-.Social-media-icons ul {
-  display: block;
-  padding-left: 0;
-  position: absolute;
-  padding-left: 100px;
-  left: 100.25%;
-  bottom: 103.87%;
-}
+  .Social-media-icons ul {
+    display: block;
+    padding-left: 0;
+    position: absolute;
+    padding-left: 100px;
+    left: 100.25%;
+    bottom: 103.87%;
+  }
 
   #logo {
     font-family: "Inter", sans-serif;
@@ -813,7 +809,6 @@ p#btn-capital {
     transition-duration: 1s;
     padding-left: 154px;
   }
-
 
   #logo:hover {
     color: #ff6b00;
@@ -834,7 +829,6 @@ p#btn-capital {
     flex: none;
     order: 0;
     flex-grow: 0;
-
   }
 
   #desktop-nav-links > li {
@@ -886,7 +880,7 @@ p#btn-capital {
     line-height: 82px;
     width: 566px;
     height: 160px;
-    font-family: 'Crete Round';
+    font-family: "Crete Round";
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -908,13 +902,13 @@ p#btn-capital {
 
   .headline-desc {
     width: 566px;
-    height: 123px; 
-    font-family: 'Inter';
+    height: 123px;
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: #F4F5F7;
+    color: #f4f5f7;
     margin-top: 12px;
     padding-left: 143px;
     display: flex;
@@ -942,7 +936,7 @@ p#btn-capital {
     padding: 135px 24px;
     margin: 0 118px;
   }
-  .menu{
+  .menu {
     display: none;
   }
 
@@ -959,7 +953,7 @@ p#btn-capital {
 
   .Right-block {
     width: 50%;
-    align-items:initial;
+    align-items: initial;
   }
 
   .Featured {
@@ -970,11 +964,11 @@ p#btn-capital {
     width: 100%;
     gap: 24px;
   }
-  
+
   .btn-feature {
     width: 124px;
     margin: 12px 0 0 0;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -987,7 +981,7 @@ p#btn-capital {
 
   #Card-container {
     display: grid;
-    grid-template-columns: 33% 33% 33% ;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 435px 435px;
     grid-gap: 24px;
     align-items: initial;
@@ -1022,14 +1016,12 @@ p#btn-capital {
     position: absolute;
     left: 142px;
     top: 2900px;
-    width: 100%;  
+    width: 100%;
     margin-bottom: 60px;
     float: right;
-    
   }
 
   #divider {
-
     margin: 800px 0 30px;
     width: 80%;
     border-bottom: 1px solid #fff;
@@ -1046,7 +1038,6 @@ p#btn-capital {
     align-items: center;
     width: 100%;
   }
-
 
   .About-me-header h3 {
     font-family: "Crete Round", serif;
@@ -1073,15 +1064,15 @@ p#btn-capital {
   }
 
   section#contact-form.work-section {
-  display: flex;
-  flex-direction: row;
-  width:auto;
-  margin: 5% auto;
-  gap:40px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 5% auto;
+    gap: 40px;
   }
 
   form {
-    width:auto;
+    width: auto;
   }
 
   menu.flex-item.bottom-link {
@@ -1094,15 +1085,15 @@ p#btn-capital {
   p.hr-line.full-hr {
     display: none;
   }
-  
+
   #contact-form > p {
-    text-align:start;
+    text-align: start;
     justify-content: start;
     margin-top: -60px;
   }
 
   .name-email,
-   #textarea{
+  #textarea {
     width: 652px;
   }
 

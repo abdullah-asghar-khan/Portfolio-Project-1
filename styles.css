@@ -53,6 +53,21 @@ header > span > img {
   background: #ff6b00;
 }
 
+#btn-first1 {
+  list-style: none;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 12px;
+  width: 327px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: #ff6b00;
+}
+
 #Headline {
   background: #1c1a19;
   height: 590px;
@@ -485,7 +500,7 @@ section #skills ul {
   color: #fff;
 }
 
-div#cube {
+span#cube {
   margin: 0;
   box-sizing: border-box;
   width: 227px;
@@ -503,13 +518,13 @@ div#cube {
   padding-left: 40px;
 }
 
-div#brecto {
+span#brecto {
   background: url("./images/Rectangle56.png") no-repeat left center;
   padding: 5px 100px 5px 30px;
   margin-left: 50px;
 }
 
-div#circle {
+span#circle {
   background: url("./images/Rectangle57.png") no-repeat left center;
   font-family: "Roboto", sans-serif;
   left: 0;
@@ -790,7 +805,6 @@ p#btn-capital {
 
   .Social-media-icons ul {
     display: block;
-    padding-left: 0;
     position: absolute;
     padding-left: 100px;
     left: 100.25%;
@@ -880,11 +894,9 @@ p#btn-capital {
     line-height: 82px;
     width: 566px;
     height: 160px;
-    font-family: "Crete Round";
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 72px;
-    line-height: 82px;
     padding-left: 143px;
   }
 
@@ -903,7 +915,7 @@ p#btn-capital {
   .headline-desc {
     width: 566px;
     height: 123px;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -936,6 +948,7 @@ p#btn-capital {
     padding: 135px 24px;
     margin: 0 118px;
   }
+
   .menu {
     display: none;
   }
@@ -1012,7 +1025,7 @@ p#btn-capital {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 130px 0px;
+    padding: 130px 0;
     position: absolute;
     left: 142px;
     top: 2900px;

@@ -1011,9 +1011,10 @@ p#btn-capital {
     align-items: center;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: 100% 20%;
+    background-position: 100% 100px;
     margin-top: 450px;
     background-image: url(./images/illustration-about-me-desktop.png);
+    background-size: 45%;
   }
 
   .tabs {
@@ -1025,10 +1026,9 @@ p#btn-capital {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 130px 0;
+    padding: 130px 150px;
     position: absolute;
     left: 142px;
-    top: 2900px;
     width: 100%;
     margin-bottom: 60px;
     float: right;

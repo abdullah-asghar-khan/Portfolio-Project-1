@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **ABDULLAH ASGHAR**
 
 - GitHub: [@Abdullah2213565](https://github.com/Abdullah2213565)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Twitter: [@twitterhandle] (https://twitter.com/dulakhan024)
 
 ## 🤝 Contributing
 

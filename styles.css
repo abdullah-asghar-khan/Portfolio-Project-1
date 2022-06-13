@@ -27,6 +27,25 @@ nav {
   line-height: 24px;
 }
 
+#myLinks {
+  position: absolute;
+  display: none;
+  top: 10%;
+  left: 0;
+  right: 0;
+  background-color: red;
+  width: 100vw;
+  transform-origin: top;
+}
+
+#myLinks.active  {
+  transform: scaleY(1);
+}
+
+#myLinks a {
+  color: #fff;
+}
+
 header > span > img {
   z-index: 0;
 }

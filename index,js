@@ -8,13 +8,12 @@ const projects = [
     popupDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
       industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
       make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    popupImage: './images/DesktopPopup.svg',
+    popupImage: './images/Snapshoot-desktop.png',
     technologies: ['html', 'bootstrap', 'ruby and rails'],
     liveLink: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
     sourceFile: 'https://github.com/Abdullah2213565/Portfolio-Project-1',
     id: '1',
   },
-
   {
     name: 'Data Dashboard Health Care',
     popupName: 'Multi Post Stories',
@@ -24,12 +23,74 @@ const projects = [
     popupDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
       industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
       make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    popupImage: './images/DesktopPopup.svg',
+    popupImage: './images/Snapshoot-desktop.png',
     technologies: ['html', 'bootstrap', 'ruby and rails'],
     liveLink: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
     sourceFile: 'https://github.com/Abdullah2213565/Portfolio-Project-1',
     id: '2',
   },
+  {
+    name: 'Data Dashboard Health Care',
+    popupName: 'Multi Post Stories',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard",
+    featuredImage: '(./images/Card-works.png)',
+    popupDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+      make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+    popupImage: './images/Snapshoot-desktop.png',
+    technologies: ['html', 'bootstrap', 'ruby and rails'],
+    liveLink: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
+    sourceFile: 'https://github.com/Abdullah2213565/Portfolio-Project-1',
+    id: '3',
+  },
+  {
+    name: 'Data Dashboard Health Care',
+    popupName: 'Multi Post Stories',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard",
+    featuredImage: '(./images/Card-works.png)',
+    popupDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+      make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+    popupImage: './images/Snapshoot-desktop.png',
+    technologies: ['html', 'bootstrap', 'ruby and rails'],
+    liveLink: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
+    sourceFile: 'https://github.com/Abdullah2213565/Portfolio-Project-1',
+    id: '4',
+  },
+  {
+    name: 'Data Dashboard Health Care',
+    popupName: 'Multi Post Stories',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard",
+    featuredImage: '(./images/Card-works.png)',
+    popupDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+      make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+    popupImage: './images/Snapshoot-desktop.png',
+    technologies: ['html', 'bootstrap', 'ruby and rails'],
+    liveLink: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
+    sourceFile: 'https://github.com/Abdullah2213565/Portfolio-Project-1',
+    id: '5',
+  },
+  {
+    name: 'Data Dashboard Health Care',
+    popupName: 'Multi Post Stories',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard",
+    featuredImage: '(./images/Card-works.png)',
+    popupDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+      make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+    popupImage: './images/Snapshoot-desktop.png',
+    technologies: ['html', 'bootstrap', 'ruby and rails'],
+    liveLink: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
+    sourceFile: 'https://github.com/Abdullah2213565/Portfolio-Project-1',
+    id: '6',
+  },
+
+
 
   
 

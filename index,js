@@ -263,10 +263,10 @@ const formValidation = () => {
         return true;
       }
     
-      function removeMessageOnFocus() {
-        const message = document.querySelector('.email-check-message');
-        if (message) {
-          message.remove();
+      function removeMessage() {
+        const msg = document.querySelector('.email-check-message');
+        if (msg) {
+          msg.remove();
         }
       }
     
@@ -276,10 +276,26 @@ const formValidation = () => {
           form.submit();
         }
   email.addEventListener('change', validateEmail);
-  email.addEventListener('focus', removeMessageOnFocus);
+  email.addEventListener('focus', removeMessage);
   form.addEventListener('submit', handleSubmit);
 };
 formValidation();
+
+const eventExecute = () => {
+    DOM.hamburgerBtn.addEventListener('click', () => {
+      DOM.CreateCloseIcon(DOM.navLinksWrapper, 'li');
+      DOM.navLinksWrapper.classList.add('display-f');
+      document.querySelector('.envelope').classList.add('display-n');
+      const hamburgerCloseIcon = document.querySelector('img.close-icon');
+      hamburgerCloseIcon.addEventListener('click', () => {
+        DOM.navLinksWrapper.classList.toggle('display-f');
+        const mailIcon = document.querySelector('.envelope');
+        mailIcon.classList.toggle('display-n');
+        document.querySelector('.close-icon-wrapper').remove();
+      });
+    });
+
+
 
 
 ];

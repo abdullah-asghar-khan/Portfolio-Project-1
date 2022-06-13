@@ -111,14 +111,13 @@ const projects2 = [
 const LocalStore = (() => {
     function useStorageInfo() {
         const currentInformation = JSON.parse(localStorage.getItem('contactInfo'));
-    
         document.getElementById('visitors-name').value = currentInformation.fullName;
         document.getElementById('visitors-email').value = currentInformation.email;
         document.getElementById('contact-text-area').value = currentInformation.message;
     }
     
     function setStorage() {
-        const contactInformation = {
+        const contactInfo = {
         fullName: document.getElementById('visitors-name').value,
         email: document.getElementById('visitors-email').value,
         message: document.getElementById('contact-text-area').value,
@@ -181,13 +180,101 @@ const LocalStore = (() => {
         ProjectBtn.type = 'button';
         ProjectBtn.textContent = 'See Project';
         ListItem.appendChild(cardDescription);
-        ListItem.appendChild(projectBtn);
+        ListItem.appendChild(ProjectBtn);
         return ListItem;
-
-
     };
 
+    projects1.map((project) => CardContainer.appendChild(CreateProjectCard(project)));
+
+    const createPopupWindow = (project) => {
+      const projectModal = createElement('div', 'project-modal');
+      const popupContainer = createElement('div', 'popup-container');
+      popupContainer.innerHTML = `
+              <h2>${project.popupName}</h2>
+              <ul class="tech-stack">
+                ${project.technologies.map((tech) => `<li>${tech}</li>`)}
+              </ul>
+              <div class="popup-img-p">
+                  <img src="${project.popupImage}" alt="${project.name}">
+                  <div class="popup-btn-wrapper">
+                      <p>${project.popupDescription}</p>
+                      
+                      <div class="pop-btn-wrap">
+                        <button class="btn popup-btn" type="button">
+                            <a href="${project.liveLink}">See Live
+                            <img src="./icon2/new-window.png" alt="New window icon">
+                            </a>                        
+                        </button>
+                        <button class="btn popup-btn" type="button">
+                            <a href="${project.sourceFile}">See Source
+                            <img src="./icon2/Icon-GitHub.png" alt="github icon">
+                            </a>                        
+                        </button>
+                      </div>
+                  </div>
+              </div>
+          `;
+      projectModal.appendChild(popupContainer);
+      return projectModal;
+    };
+
+    const HamburgerButton = document.querySelector('.hamburger-btn');
+    const navLinksWrapper = document.getElementById('nav-links');
+    const ProjectButtons = document.querySelectorAll('.btn-card');
+    const WorkSection = document.getElementById('recent-works');
+
+  return {
+    createElement,
+    CreateCloseIcon,
+    createPopupWindow,
+    HamburgerButton,
+    navLinksWrapper,
+    CardContainer,
+    ProjectButtons,
+    WorkSection,
+  };
+})();
+
+const formValidation = () => {
+    const email = document.getElementById('visitors-email');
+    const form = document.getElementById('contact-form');
+
+    function showMessage(text, className) {
+        let message;
+        if (!document.querySelector('.email-check-message')) {
+        message = DOM.createElement('small', 'email-check-message');
+        message.classList.add(className);
+        } else {
+        message = document.querySelector('.email-check-message');
+        message.classList.replace(className, className);
+        }
+        message.textContent = text;
+        const submitButton = document.querySelector('.btn-form-submit');
+        form.insertBefore(message, submitButton);
+    }
+    function validateEmail() {
+        const emailValue = email.value.trim();
+        const lowerCaseEmail = emailValue.toLowerCase();
+    
+        if (emailValue !== lowerCaseEmail) {
+          showMessage('Email should be lowercase all through', 'invalid-email');
+          return false;
+        }
+        return true;
+      }
+    
+      function removeMessageOnFocus() {
+        const message = document.querySelector('.email-check-message');
+        if (message) {
+          message.remove();
+        }
+      }
+    
+      function handleSubmit(e) {
+        e.preventDefault();
+        if (validateEmail()) {
+          form.submit();
+        }
 
 
-});
 ];

@@ -1,4 +1,4 @@
-const projects = [
+const projects1 = [
   {
     name: 'Data Dashboard Health Care',
     popupName: 'Multi Post Stories',
@@ -89,9 +89,105 @@ const projects = [
     sourceFile: 'https://github.com/Abdullah2213565/Portfolio-Project-1',
     id: '6',
   },
-
-
-
+];
   
+const projects2 = [
+    {
+      name: 'Data Dashboard Health Care',
+      popupName: 'Multi Post Stories',
+      description:
+        "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard",
+      featuredImage: '(./images/Card-works.png)',
+      popupDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+        make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+      popupImage: './images/Snapshoot-desktop.png',
+      technologies: ['html', 'bootstrap', 'ruby and rails'],
+      liveLink: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
+      sourceFile: 'https://github.com/Abdullah2213565/Portfolio-Project-1',
+      id: 'x1', 
+    }];
 
-]
+const LocalStore = (() => {
+    function useStorageInfo() {
+        const currentInformation = JSON.parse(localStorage.getItem('contactInfo'));
+    
+        document.getElementById('visitors-name').value = currentInformation.fullName;
+        document.getElementById('visitors-email').value = currentInformation.email;
+        document.getElementById('contact-text-area').value = currentInformation.message;
+    }
+    
+    function setStorage() {
+        const contactInformation = {
+        fullName: document.getElementById('visitors-name').value,
+        email: document.getElementById('visitors-email').value,
+        message: document.getElementById('contact-text-area').value,
+        };
+        localStorage.setItem('contactInfo', JSON.stringify(contactInfo));
+        useStorageInfo();
+    }
+    
+    return { setStorage, useStorageInfo };
+    })();
+
+    const DOM = (() => {
+    function createElement(elem, className = null) {
+        const element = document.createElement(elem);
+        if (className !== null) {
+        element.classList.add(className);
+        }
+        return element;
+    }
+
+    const CreateCloseIcon = (location, closeWrap) => {
+        const closeIcon = createElement('img', 'close-icon');
+        const closeWrapper = createElement(closeWrap, 'close-icon-wrapper');
+        closeIcon.src = './icon2/close-icon.png';
+        closeIcon.alt = 'close icon';
+        closeWrapper.appendChild(closeIcon);
+        location.appendChild(closeWrapper);
+    };
+
+    const CardContainer = document.getElementById('Card-container');
+    const CreateProjectCard = (project) => {
+        const ListItem = createElement('li', 'project-card');
+        ListItem.style.background = `${project.featuredImage}`;
+        ListItem.id = project.id;
+    
+        const projectName = createElement('h3');
+        projectName.textContent = `${project.name}`;
+    
+        const projectDescription = createElement('p');
+        projectDescription.textContent = `${project.description}`;
+    
+        const techList1 = createElement('li');
+        techList1.textContent = `${project.technologies[0]}`;
+        const techList2 = createElement('li');
+        techList2.textContent = `${project.technologies[1]}`;
+        const techList3 = createElement('li');
+        techList3.textContent = `${project.technologies[2]}`;
+        const techUL = createElement('ul', 'description-tags');
+        techUL.appendChild(techList1);
+        techUL.appendChild(techList2);
+        techUL.appendChild(techList3);
+    
+        const cardDescription = createElement('div', 'card-description');
+        cardDescription.appendChild(projectName);
+        cardDescription.appendChild(projectDescription);
+        cardDescription.appendChild(techUL);
+    
+        const ProjectBtn = createElement('button', 'btn-card');
+        ProjectBtn.classList.add('btn');
+        ProjectBtn.type = 'button';
+        ProjectBtn.textContent = 'See Project';
+        ListItem.appendChild(cardDescription);
+        ListItem.appendChild(projectBtn);
+        return ListItem;
+
+
+    };
+
+
+
+});
+];

@@ -257,7 +257,7 @@ const formValidation = () => {
         const lowerCaseEmail = emailValue.toLowerCase();
     
         if (emailValue !== lowerCaseEmail) {
-          showMessage('Email should be lowercase all through', 'invalid-email');
+          showMessage('The Email should be lowercase', 'invalid-email');
           return false;
         }
         return true;
@@ -275,6 +275,11 @@ const formValidation = () => {
         if (validateEmail()) {
           form.submit();
         }
+  email.addEventListener('change', validateEmail);
+  email.addEventListener('focus', removeMessageOnFocus);
+  form.addEventListener('submit', handleSubmit);
+};
+formValidation();
 
 
 ];

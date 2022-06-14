@@ -5,6 +5,7 @@ const menuItems = document.querySelectorAll(".menu-item")
 function openNav() {
     document.querySelector('.mobile-menu').classList.add('active');
     toggleMenu.classList.add('invisible');
+    document.querySelector('.menu-item').classList.add('open-menu')
 } 
 
 toggleMenu.addEventListener('click', openNav)
@@ -13,6 +14,7 @@ function closeNav(){
     document.querySelector('.mobile-menu').classList.remove('active');
     toggleMenu.classList.remove('invisible');
     document.body.style.overflow = 'auto';
+    document.querySelector('.menu-item').classList.remove('open-menu')
 } 
 
 closeBtn.addEventListener('click', closeNav)

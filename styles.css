@@ -11,8 +11,11 @@
   padding: 12px;
 }
 
-.desktop-nav-links
-header > span > img {
+.menu img {
+  width: 28px;
+}
+
+.desktop-nav-links header > span > img {
   z-index: 0;
 }
 
@@ -49,10 +52,6 @@ nav {
 
 .menu.invisible {
   transform: scale(0);
-}
-
-.menu img {
-  width: 28px;
 }
 
 .mobile-menu {

@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 #header {
   background-color: #3c3a39;
   height: 48px;
@@ -16,7 +21,7 @@
 }
 
 .desktop-nav-links header > span > img {
-  z-index: 0;
+  z-index: 1;
 }
 
 .mob-menu-hidden {
@@ -41,7 +46,7 @@ nav {
 
 .desktop-nav-links {
   display: none;
-  z-index: -1;
+  z-index: 11;
 }
 
 .menu {
@@ -63,13 +68,13 @@ nav {
   width: 100vw;
   height: 100vh;
   transform: scale(0);
-  background-color: hsl(231, 6%, 22%);
+  background-color: #3C3a39;
   transition: 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .mobile-menu.active {
   transform: scale(1);
-  height: 100vh;
+  height: 80%;
 }
 
 .menu-item {
@@ -93,9 +98,18 @@ li {
 }
 
 .menu-item li a {
-  font-size: 20px;
   color: #fff;
   text-decoration: none;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.horizontal-line {
+  height: 1px;
+  border-color: #6f6c6b;
 }
 
 #close-btn {
@@ -925,6 +939,7 @@ p#btn-capital {
   .desktop-nav-links > li > a {
     text-decoration: none;
     color: var(--white);
+    font-size: 18px;
   }
 
   #recent-works-header {

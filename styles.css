@@ -68,7 +68,7 @@ nav {
   width: 100vw;
   height: 100vh;
   transform: scale(0);
-  background-color: #3C3a39;
+  background-color: #3c3a39;
   transition: 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
@@ -100,7 +100,7 @@ li {
 .menu-item li a {
   color: #fff;
   text-decoration: none;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;

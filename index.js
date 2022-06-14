@@ -34,26 +34,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
-//for highlighting nav-menu//
-
-const sections = document.querySelectorAll('#Headline')
-const navLi = document.querySelectorAll('nav ul li')
-
-window.addEventListener('scroll',() =>{
-    let currentSection = '';
-
-    sections.forEach(section =>{
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        if(pageYOffset >= (sectionTop-sectionHeight / 3.5)){
-            currentSection = section.getAttribute('id')
-        }
-    })
-    navLi.forEach(list=>{
-        list.classList.remove('active')
-        if(list.classList.contains(currentSection)){
-          list.classList.add('active')
-       }
-    })
-})

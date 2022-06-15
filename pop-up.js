@@ -107,7 +107,7 @@ const description = document.createElement('p');
 const skills = document.createElement('ul');
 
 imgWrapper.classList.add('pop-header-div');
-cancelBtn.src = 'assets/img/Icon.svg';
+cancelBtn.src = './images/Icon-Cancel.png';
 imgWrapper.appendChild(cancelBtn);
 
 btnSource.target = '_blank';
@@ -124,8 +124,8 @@ title.classList.add('pop-header-h3');
 header.appendChild(title);
 header.appendChild(imgWrapper);
 header.classList.add('pop-header');
-btnSource.innerHTML = '<img src="assets/img/gitbutton.png" alt="Live version"> ';
-btnLive.innerHTML = '<img src="assets/img/livebutton.png" alt="Live version"> ';
+btnSource.innerHTML = '<img src="./icon2/Enable.png" alt="Live version"> ';
+btnLive.innerHTML = '<img src="./icon2/Enable3.png" alt="Live version"> ';
 externalButton.appendChild(btnLive);
 externalButton.appendChild(btnSource);
 

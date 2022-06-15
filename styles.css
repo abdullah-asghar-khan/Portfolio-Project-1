@@ -514,6 +514,49 @@ li {
     width: 100%;
   }
 
+  .pop-header-h3 {
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 32px;
+    color: #172b4d;
+    font-family: Poppins, sans-serif;
+    line-height: 44px;
+}
+
+.pop-header-div {
+  float: right;
+  margin-left: 21%;
+}
+
+.pop-header-description {
+  max-height: 45%;
+}
+
+.inf {
+  display: flex;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: 0;
+  color: #344563;
+  }
+
+.mobile-part-class {
+  display: flex;
+  flex-direction: column;
+  }
+
+.techns {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding-left: 0;
+  margin-top: 15%;
+  margin-bottom: 4%;
+  }
 
 }
 
@@ -525,8 +568,6 @@ li {
   width: 95%;
   margin-left: 2.5%;
   padding: 3%;
-}
-
 }
 
 #recent-works-header + div {

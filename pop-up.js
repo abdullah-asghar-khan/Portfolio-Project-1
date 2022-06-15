@@ -44,4 +44,4 @@ const projects = [
     },
   ];
 
-  const myWork = document.querySelector('#recent-works');
+  

@@ -77,6 +77,9 @@
   margin-bottom: 30px;
 }
 
+li {
+  list-style-type: none;
+}
 .skills li {
   margin: 5px;
   background: #FFFFFF;
@@ -165,9 +168,7 @@ ul.centro {
   margin: 16px;
 }
 
-li {
-  list-style-type: none;
-}
+
 
 span#cube {
   margin: 0;
@@ -547,7 +548,25 @@ li {
 .mobile-part-class {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
   }
+
+.pop-header-description {
+    width: 65%;
+    margin-right: 4%;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+section#work {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  height: 426px;
+}
 
 .techns {
   display: flex;
@@ -556,6 +575,7 @@ li {
   padding-left: 0;
   margin-top: 15%;
   margin-bottom: 4%;
+
   }
 
 }
@@ -1147,6 +1167,13 @@ p#btn-capital {
     display: flex;
     flex-direction: column;
   }
+
+  .pop-header-h3 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
 
   #header {
     display: flex;

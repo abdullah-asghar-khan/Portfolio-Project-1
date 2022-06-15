@@ -300,6 +300,92 @@ li {
   margin: 24px 0;
 }
 
+.pop-up-window {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.75s cubic-bezier(0.455, 0.03, 0.515, 0.955) !important;
+  background: #fff;
+  border: 2px solid #b2b3b6;
+  border-radius: 16px;
+  z-index: 1;
+  overflow: auto;
+  width: 80vw;
+  height: 80vh;
+  padding: 20px 15px;
+}
+
+.popup-close-btn {
+  float: right;
+  padding: 0 5px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #172b4d;
+}
+
+.pop-up-body img {
+  width: 75vw;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.pop-up-body {
+  margin: 10px auto;
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pop-up-btns {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.pop-up-btns button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  padding: 13px;
+  gap: 10px;
+}
+
+.pop-up-window .bi {
+  font-size: 16px;
+}
+
+.pop-up-window.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.pop-up-header {
+  padding: 8px;
+  width: 75vw;
+  margin: 10px auto;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c1c7d0f7;
+  transition: 0.75s cubic-bezier(0.455, 0.03, 0.515, 0.955) !important;
+  pointer-events: none;
+  backdrop-filter: blur(2px);
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
 @media screen and (max-width: 768px) {
   #headline-section {
     background-image: url(./images/Illustration-header.png);
@@ -1206,4 +1292,10 @@ p#btn-capital {
   button.custom {
     margin-left: 23px;
   }
+}
+
+.popup-close-btn:active,
+.popup-close-btn:hover {
+  background: #ecedefd5;
+  border-radius: 50%;
 }

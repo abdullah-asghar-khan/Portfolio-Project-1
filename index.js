@@ -1,7 +1,6 @@
 const toggleMenu = document.querySelector('.menu');
 const closeBtn = document.querySelector('#close-btn');
 const menuItems = document.querySelectorAll('.menu-item');
-const home = document.querySelector('.homepage');
 const body = document.querySelector('body');
 function openNav() {
   document.querySelector('.mobile-menu').classList.add('active');
@@ -18,7 +17,6 @@ function closeNav() {
   document.body.style.overflow = 'auto';
   body.style.position = 'absolute';
   document.querySelector('.menu-item').classList.remove('open-menu');
-  
 }
 
 closeBtn.addEventListener('click', closeNav);

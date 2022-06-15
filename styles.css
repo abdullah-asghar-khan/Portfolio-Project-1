@@ -201,6 +201,8 @@ span#cube {
   color: #fff;
 }
 
+
+
 html,
 body {
   overflow-x: hidden;
@@ -505,7 +507,26 @@ li {
 
   .project_image {
     width: 95%;
+  }
+
+  .pop-header {
+    display: flex;
+    width: 100%;
+  }
+
+
 }
+
+.pop-window {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100vh;
+  width: 95%;
+  margin-left: 2.5%;
+  padding: 3%;
+}
+
 }
 
 #recent-works-header + div {

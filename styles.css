@@ -1091,7 +1091,7 @@ p#btn-capital {
   }
 
   .btn-desk {
-    display: none;
+    display: flex;
   }
 
   #About-and-skill {

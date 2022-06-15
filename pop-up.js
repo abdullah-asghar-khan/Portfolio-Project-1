@@ -1,35 +1,35 @@
 const projects = {
-    p15: {
-      name: 'Multi-Post Stories',
-      description:
+  p15: {
+    name: 'Multi-Post Stories',
+    description:
         'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys ',
-      img: './images/Img-Placeholder.png',
-      technolgies: ['css', 'HTML', 'bootstap', 'Ruby'],
-      linkToLiveVersion: '#',
-      linkToSource: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
-      generalInf: ['Microverse- Student', 'Web Developer', 2021],
-    },
-    p16: {
-      name: 'Shiz Pet Store',
-      description:
+    img: './images/Img-Placeholder.png',
+    technolgies: ['css', 'HTML', 'bootstap', 'Ruby'],
+    linkToLiveVersion: '#',
+    linkToSource: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
+    generalInf: ['Microverse- Student', 'Web Developer', 2021],
+  },
+  p16: {
+    name: 'Shiz Pet Store',
+    description:
         'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-      img: './images/Card-works.png',
-      technolgies: ['css', 'HTML', 'bootstap', 'Ruby'],
-      linkToLiveVersion: '#',
-      linkToSource: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
-      generalInf: ['Microverse- Student', 'Web Developer', 2021],
-    },
-    p17: {
-      name: 'Movie Engine',
-      description:
+    img: './images/Card-works.png',
+    technolgies: ['css', 'HTML', 'bootstap', 'Ruby'],
+    linkToLiveVersion: '#',
+    linkToSource: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
+    generalInf: ['Microverse- Student', 'Web Developer', 2021],
+  },
+  p17: {
+    name: 'Movie Engine',
+    description:
         'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-      img: './images/Card-works.png',
-      technolgies: ['css', 'HTML', 'bootstap', 'Ruby'],
-      linkToLiveVersion: '#',
-      linkToSource: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
-      generalInf: ['Microverse- Student', 'Web Developer', 2021],
-    },
-  };
+    img: './images/Card-works.png',
+    technolgies: ['css', 'HTML', 'bootstap', 'Ruby'],
+    linkToLiveVersion: '#',
+    linkToSource: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
+    generalInf: ['Microverse- Student', 'Web Developer', 2021],
+  },
+};
 
 const myWork = document.querySelector('#recent-works');
 
@@ -169,7 +169,7 @@ popUpBtn.forEach((btn) => {
     skills.classList.add('techns');
 
     home.style.backgroundColor = 'rgba(193, 199, 208, 0.7)';
-    
+
     wrapper.style.visibility = 'visible';
 
     wrapper.style.position = 'fixed';
@@ -181,6 +181,6 @@ const cancel = document.querySelector('.pop-header-div');
 cancel.addEventListener('click', () => {
   document.querySelector('.pop-window').style.visibility = 'hidden';
   home.style.backgroundColor = '#fff';
-  
+
   wrapper.style.position = 'hidden';
 });

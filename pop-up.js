@@ -169,21 +169,7 @@ container.classList.add('active');
   });
 }
 
-seeProjectBtn1.addEventListener('click', () => {
-    openPopup(0);
-  });
-  
-  seeProjectBtn2.addEventListener('click', () => {
-    openPopup(1);
-  });
-  
-  seeProjectBtn3.addEventListener('click', () => {
-    openPopup(2);
-  });
-  
-  seeProjectBtn4.addEventListener('click', () => {
-    openPopup(3);
-  });
+
 
 
 

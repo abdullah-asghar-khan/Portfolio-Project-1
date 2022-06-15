@@ -20,6 +20,12 @@ body {
   width: 28px;
 }
 
+.pop-up-body img {
+  width: 75vw;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
 .desktop-nav-links header > span > img {
   z-index: 1;
 }
@@ -322,12 +328,6 @@ li {
   font-size: 25px;
   cursor: pointer;
   color: #172b4d;
-}
-
-.pop-up-body img {
-  width: 75vw;
-  margin-bottom: 10px;
-  border-radius: 10px;
 }
 
 .pop-up-body {

@@ -1,61 +1,60 @@
 const projects = [
-    {
-      name: 'Tonic',
-      devInfo: 'Abdullah',
-      description:
+  {
+    name: 'Tonic',
+    devInfo: 'Abdullah',
+    description:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text.",
-      languages: ['html', 'css', 'javascript'],
-      image: '(./images/Card-works.png)',
-      liveVersion: 'See Live',
-      sourceLink: 'See Source',
-    },
-  
-    {
-      name: 'Multi-Post Stories',
-      devInfo: 'Abdullah',
-      description:
+    languages: ['html', 'css', 'javascript'],
+    image: '(./images/Card-works.png)',
+    liveVersion: 'See Live',
+    sourceLink: 'See Source',
+  },
+
+  {
+    name: 'Multi-Post Stories',
+    devInfo: 'Abdullah',
+    description:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text.",
-      languages: ['html', 'css', 'javascript', 'React'],
-      image: '(./images/Card-works.png)',
-      liveVersion: 'See Live',
-      sourceLink: 'See Source',
-    },
-  
-    {
-      name: 'Tonic',
-      devInfo: 'Abdullah',
-      description:
+    languages: ['html', 'css', 'javascript', 'React'],
+    image: '(./images/Card-works.png)',
+    liveVersion: 'See Live',
+    sourceLink: 'See Source',
+  },
+
+  {
+    name: 'Tonic',
+    devInfo: 'Abdullah',
+    description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text.",
-      languages: ['html', 'css', 'javascript'],
-      image: '(./images/Card-works.png)',
-      liveVersion: 'See Live',
-      sourceLink: 'See Source',
-    },
-  
-    {
-      name: 'Multi-Post Stories',
-      devInfo: 'Abdullah',
-      description:
+    languages: ['html', 'css', 'javascript'],
+    image: '(./images/Card-works.png)',
+    liveVersion: 'See Live',
+    sourceLink: 'See Source',
+  },
+
+  {
+    name: 'Multi-Post Stories',
+    devInfo: 'Abdullah',
+    description:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text.",
-      languages: ['html', 'css', 'javascript'],
-      image: '(./images/Card-works.png)',
-      liveVersion: 'See Live',
-      sourceLink: 'See Source',
-    },
-  ];
-   
-  const recentWorks = document.getElementById('#recent-works');
-  function addProjects(n) {
-    const {
-      name,
-      devInfo,
-      description,
-      languages,
-      image,
-    } = projects[n];
+    languages: ['html', 'css', 'javascript'],
+    image: '(./images/Card-works.png)',
+    liveVersion: 'See Live',
+    sourceLink: 'See Source',
+  },
+];
 
+const recentWorks = document.getElementById('#recent-works');
+function addProjects(n) {
+  const {
+    name,
+    devInfo,
+    description,
+    languages,
+    image,
+  } = projects[n];
 
-    recentWorks.innerHTML += `
+  recentWorks.innerHTML += `
 
     <div class="project">
 <img src=${image} alt="Screenshot-of-*project-name*">
@@ -95,18 +94,17 @@ const overlay = document.querySelector('#overlay');// get overlay
 const container = document.querySelector('.pop-up-window');// get the popup-window
 
 function openPopup(index) { // index for getting the project number
-    const {
-      name,
-      devInfo,
-      description,
-      languages,
-      image,
-      liveVersion,
-      sourceLink,
-    } = projects[index];
+  const {
+    name,
+    devInfo,
+    description,
+    languages,
+    image,
+    liveVersion,
+    sourceLink,
+  } = projects[index];
 
-    
-    container.innerHTML = `
+  container.innerHTML = `
   <div class="pop-up-header">
   <a class="popup-close-btn">&times;</a>
   <h3 class="project-name">
@@ -150,13 +148,12 @@ function openPopup(index) { // index for getting the project number
   </div?
 </div>`;
 
-container.classList.add('active');
+  container.classList.add('active');
   overlay.classList.add('active');
   document.body.style.overflow = 'hidden';
 
   const popupCloseBtn = document.querySelector('.popup-close-btn');
   popupCloseBtn.addEventListener('click', () => {
-
     container.classList.remove('active');
     overlay.classList.remove('active');
     document.body.style.overflow = 'auto';
@@ -170,21 +167,17 @@ container.classList.add('active');
 }
 
 seeProjectBtn1.addEventListener('click', () => {
-    openPopup(0);
-  });
-  
-  seeProjectBtn2.addEventListener('click', () => {
-    openPopup(1);
-  });
-  
-  seeProjectBtn3.addEventListener('click', () => {
-    openPopup(2);
-  });
-  
-  seeProjectBtn4.addEventListener('click', () => {
-    openPopup(3);
-  });
+  openPopup(0);
+});
 
+seeProjectBtn2.addEventListener('click', () => {
+  openPopup(1);
+});
 
+seeProjectBtn3.addEventListener('click', () => {
+  openPopup(2);
+});
 
-
+seeProjectBtn4.addEventListener('click', () => {
+  openPopup(3);
+});

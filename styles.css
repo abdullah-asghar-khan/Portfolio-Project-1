@@ -74,7 +74,9 @@ nav {
 
 .mobile-menu.active {
   transform: scale(1);
-  height: 80%;
+  position: fixed;
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 .menu-item {

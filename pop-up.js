@@ -115,7 +115,6 @@ btnLive.target = '_blank';
 
 description.classList.add('project_description');
 
-infos.classList.add('inf');
 
 const bottom = document.createElement('div');
 const mobilePart = document.createElement('div');
@@ -124,23 +123,25 @@ title.classList.add('pop-header-h3');
 header.appendChild(title);
 header.appendChild(imgWrapper);
 header.classList.add('pop-header');
+
 btnSource.innerHTML = '<img src="./icon2/Enable.png" alt="Live version"> ';
 btnLive.innerHTML = '<img src="./icon2/Enable3.png" alt="Live version"> ';
 externalButton.appendChild(btnLive);
 externalButton.appendChild(btnSource);
 
-bottom.appendChild(skills);
-bottom.appendChild(externalButton);
-
+header.appendChild(skills);
 mobilePart.appendChild(description);
+bottom.appendChild(externalButton);
 mobilePart.appendChild(bottom);
+
+
 mobilePart.classList.add('mobile-part-class');
-mobilePart.querySelector('p').classList.add('pop-header-description');
+
 image.classList.add('project_image');
 image.classList.add('pop-header-img');
+mobilePart.querySelector('p').classList.add('pop-header-description');
 
 wrapper.appendChild(header);
-wrapper.appendChild(infos);
 wrapper.appendChild(image);
 wrapper.appendChild(mobilePart);
 

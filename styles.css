@@ -578,7 +578,7 @@ nav {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  height: 70vh;
+  height: 90vh;
   width: 95%;
   margin-left: 2.5%;
   padding: 3%;
@@ -1068,7 +1068,7 @@ p#btn-capital {
 
 @media screen and (min-width: 768px) {
   .mobile-part-class div {
-    margin-top: 6%;
+    margin-top: 13%;
     margin-left: 32%;
   }
 

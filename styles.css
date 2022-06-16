@@ -582,7 +582,7 @@ nav {
   width: 95%;
   margin-left: 2.5%;
   padding: 3%;
-  margin-top:10%;
+  margin-top: 10%;
 }
 
 #recent-works-header + div {
@@ -1071,11 +1071,13 @@ p#btn-capital {
     margin-top: 6%;
     margin-left: 32%;
   }
+
   .pop-header-description {
     width: 50%;
     margin-left: 55%;
     margin-top: -30%;
   }
+
   .pop-header-div {
     justify-content: flex-end;
     float: right;
@@ -1094,7 +1096,7 @@ p#btn-capital {
     flex: none;
     order: 1;
     flex-grow: 0;
-}
+  }
 
   .pop-header-img {
     width: 47%;

@@ -578,10 +578,11 @@ nav {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  height: 100vh;
+  height: 70vh;
   width: 95%;
   margin-left: 2.5%;
   padding: 3%;
+  margin-top:10%;
 }
 
 #recent-works-header + div {
@@ -1066,11 +1067,34 @@ p#btn-capital {
 }
 
 @media screen and (min-width: 768px) {
+  .mobile-part-class div {
+    margin-top: 6%;
+    margin-left: 32%;
+  }
+  .pop-header-description {
+    width: 50%;
+    margin-left: 55%;
+    margin-top: -30%;
+  }
   .pop-header-div {
     justify-content: flex-end;
     float: right;
     margin-top: -4%;
   }
+
+  .project_description {
+    width: 327px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091e42;
+    padding-top: 12px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
 
   .pop-header-img {
     width: 47%;

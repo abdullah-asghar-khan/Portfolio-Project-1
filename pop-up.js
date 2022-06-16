@@ -101,6 +101,7 @@ const home = document.querySelector('.homepage');
 const cancelBtn = document.createElement('img');
 const imgWrapper = document.createElement('div');
 const header = document.createElement('div');
+
 const title = document.createElement('h3');
 const infos = document.createElement('p');
 const image = document.createElement('img');

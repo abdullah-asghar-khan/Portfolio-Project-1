@@ -24,4 +24,3 @@ closeBtn.addEventListener('click', closeNav);
 menuItems.forEach((item) => {
   item.addEventListener('click', closeNav);
 });
-

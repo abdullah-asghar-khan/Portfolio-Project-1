@@ -578,11 +578,11 @@ nav {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  height: 90vh;
+  height: 90%;
   width: 95%;
   margin-left: 2.5%;
   padding: 3%;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 #recent-works-header + div {
@@ -1068,15 +1068,16 @@ p#btn-capital {
 
 @media screen and (min-width: 768px) {
   .mobile-part-class div {
-    margin-top: 13%;
-    margin-left: 32%;
-  }
+    margin-top: 28%;
+    margin-left: 34%;
+}
 
   .pop-header-description {
     width: 50%;
-    margin-left: 55%;
-    margin-top: -30%;
-  }
+    margin-left: 52%;
+    margin-top: -35%;
+    font-size: 16px;
+}
 
   .pop-header-div {
     justify-content: flex-end;
@@ -1098,8 +1099,15 @@ p#btn-capital {
     flex-grow: 0;
   }
 
+  .pop-header-description {
+    width: 40%;
+    font-size: 20px;
+    margin-left: 57%;
+    margin-top: -40%;
+}
+
   .pop-header-img {
-    width: 47%;
+    width: 55%;
     height: auto;
     display: flex;
   }

@@ -9,7 +9,7 @@ const projects = {
     linkToSource: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
     generalInf: ['Microverse- Student', 'Web Developer', 2021],
   },
-  
+
   p16: {
     name: 'Shiz Pet Store',
     description:
@@ -116,7 +116,6 @@ btnLive.target = '_blank';
 
 description.classList.add('project_description');
 
-
 const bottom = document.createElement('div');
 const mobilePart = document.createElement('div');
 
@@ -134,7 +133,6 @@ header.appendChild(skills);
 mobilePart.appendChild(description);
 bottom.appendChild(externalButton);
 mobilePart.appendChild(bottom);
-
 
 mobilePart.classList.add('mobile-part-class');
 

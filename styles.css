@@ -1070,14 +1070,7 @@ p#btn-capital {
   .mobile-part-class div {
     margin-top: 28%;
     margin-left: 34%;
-}
-
-  .pop-header-description {
-    width: 50%;
-    margin-left: 52%;
-    margin-top: -35%;
-    font-size: 16px;
-}
+  }
 
   .pop-header-div {
     justify-content: flex-end;
@@ -1104,7 +1097,7 @@ p#btn-capital {
     font-size: 20px;
     margin-left: 57%;
     margin-top: -40%;
-}
+  }
 
   .pop-header-img {
     width: 55%;

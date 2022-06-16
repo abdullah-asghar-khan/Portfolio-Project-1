@@ -536,11 +536,7 @@ li {
   flex-direction: row;
 }
 
-  .pop-header-description {
-  
-}
-
-  .inf {
+.inf {
   display: flex;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -572,10 +568,6 @@ li {
   padding-top: 10%;
   display: flex;
   flex-direction: column;
-}
-
-  .project {
-  height: 426px;
 }
 
   .techns {

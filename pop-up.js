@@ -9,6 +9,7 @@ const projects = {
     linkToSource: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
     generalInf: ['Microverse- Student', 'Web Developer', 2021],
   },
+  
   p16: {
     name: 'Shiz Pet Store',
     description:

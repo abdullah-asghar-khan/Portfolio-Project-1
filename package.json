@@ -613,6 +613,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "hintConfig": {
+    "connector": {
+        "name": "connectorName"
+    },
+    "formatters": ["formatterName"],
+    "parsers": ["parserName"],
+    "hints": {
+        "hint1": "error",
+        "hint2": "warning",
+        "hint3": "off"
+    },
+    "hintsTimeout": 120000
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Abdullah2213565/Portfolio-Project-1.git"

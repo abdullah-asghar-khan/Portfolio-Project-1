@@ -24,3 +24,29 @@ closeBtn.addEventListener('click', closeNav);
 menuItems.forEach((item) => {
   item.addEventListener('click', closeNav);
 });
+
+function isLowerCase(input) {
+  const str = input.value.trim();
+  return str === str.toLowerCase();
+}
+function showMessage(form, invalidMsg) {
+  const target = form.querySelector('span');
+  target.innerText = invalidMsg;
+}
+function validateEmail(form, input, invalidMsg) {
+  if (isLowerCase(input)) {
+    return true;
+  }
+  showMessage(form, invalidMsg);
+  return false;
+}
+const form = document.querySelector('form');
+const msg = 'The form was not sent, the email text should be in lower case.';
+form.addEventListener('submit', (event) => {
+  const mail = form.elements.email;
+  const emailValid = validateEmail(form, mail, msg);
+
+  if (!emailValid) {
+    event.preventDefault();
+  }
+});

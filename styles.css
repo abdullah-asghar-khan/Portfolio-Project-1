@@ -926,8 +926,9 @@ textarea {
 }
 
 .form-hr {
-  color: #dbd8d7;
+  color: black;
   margin-bottom: 24px;
+  font-size: 21px;
 }
 
 #textarea {

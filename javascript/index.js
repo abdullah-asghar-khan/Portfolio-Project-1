@@ -71,3 +71,11 @@ function setForm() {
   form.elements.email.value = currentUserEmail;
   form.elements.message.value = currentMessage;
 }
+if (!localStorage.getItem('userInput')) {
+  populateStorage();
+} else {
+  setForm();
+}
+userName.onchange = populateStorage;
+userEmail.onchange = populateStorage;
+userMessage.onchange = populateStorage;

@@ -11,10 +11,10 @@ const projects = {
   },
 
   p16: {
-    name: 'Shiz Pet Store',
+    name: 'Crypto-Hub',
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-    img: './images/Card-works.png',
+        'Crypto-hub is a web application for a cryptocurrencies that provides information about the most used cryptocurrencies in the worlds.',
+    img: './images/Crypto-Hub.png',
     technolgies: ['css', 'HTML', 'bootstap', 'Ruby'],
     linkToLiveVersion: '#',
     linkToSource: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',

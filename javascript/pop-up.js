@@ -5,8 +5,8 @@ const projects = {
         'This project is a simple book list app to know how to use, create and learn projects. It was built with javascript.',
     img: './images/awesome-books.png',
     technolgies: ['css', 'HTML', 'bootstap', 'Ruby'],
-    linkToLiveVersion: '#',
-    linkToSource: 'https://ephemeral-klepon-f5c6a6.netlify.app/#',
+    linkToLiveVersion: 'https://ephemeral-klepon-f5c6a6.netlify.app/',
+    linkToSource: 'https://github.com/Abdullah2213565/Awsome-books',
     generalInf: ['Microverse- Student', 'Web Developer', 2021],
   },
 
@@ -16,8 +16,8 @@ const projects = {
         'Crypto-hub is a web application for a cryptocurrencies that provides information about the most used cryptocurrencies in the worlds.',
     img: './images/Crypto-Hub.png',
     technolgies: ['css', 'HTML', 'bootstap', 'Ruby'],
-    linkToLiveVersion: '#',
-    linkToSource: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
+    linkToLiveVersion: 'https://quiet-faun-1c541c.netlify.app/',
+    linkToSource: 'https://github.com/Abdullah2213565/crypto-hub',
     generalInf: ['Microverse- Student', 'Web Developer', 2021],
   },
   p17: {
@@ -26,8 +26,8 @@ const projects = {
         'Drum Festival Global conference is a yearly drummer community event at the global level featuring world-class drummers from more than 100 countries.',
     img: './images/drum-festival.png',
     technolgies: ['css', 'HTML', 'bootstap', 'Ruby'],
-    linkToLiveVersion: '#',
-    linkToSource: 'https://main--lustrous-bubblegum-2bad91.netlify.app/',
+    linkToLiveVersion: 'https://main--lustrous-bubblegum-2bad91.netlify.app/',
+    linkToSource: 'https://github.com/Abdullah2213565/Capstone-Project',
     generalInf: ['Microverse- Student', 'Web Developer', 2021],
   },
 };

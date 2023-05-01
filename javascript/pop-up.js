@@ -6,7 +6,7 @@ const projects = {
     img: './images/awesome-books.png',
     technolgies: ['css', 'HTML', 'bootstap', 'Ruby'],
     linkToLiveVersion: '#',
-    linkToSource: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
+    linkToSource: 'https://ephemeral-klepon-f5c6a6.netlify.app/#',
     generalInf: ['Microverse- Student', 'Web Developer', 2021],
   },
 

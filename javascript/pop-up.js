@@ -24,10 +24,10 @@ const projects = {
     name: 'Drum Festival Global',
     description:
         'Drum Festival Global conference is a yearly drummer community event at the global level featuring world-class drummers from more than 100 countries.',
-    img: './images/Card-works.png',
+    img: './images/drum-festival.png',
     technolgies: ['css', 'HTML', 'bootstap', 'Ruby'],
     linkToLiveVersion: '#',
-    linkToSource: 'https://github.com/Abdullah2213565/Portfolio-Project-1/',
+    linkToSource: 'https://main--lustrous-bubblegum-2bad91.netlify.app/',
     generalInf: ['Microverse- Student', 'Web Developer', 2021],
   },
 };

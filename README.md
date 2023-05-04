@@ -9,7 +9,7 @@
 - ES6LINT
 - Javascript
 ## Demo
-    [Demo link](https://abdullah2213565.github.io/Portfolio-Project-1/)
+    [Demo link](https://resplendent-gecko-352f0e.netlify.app/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
